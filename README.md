@@ -1,3 +1,3 @@
 ## Personal-Blog
 
-- [home page](https://github.com/exposir)
+ [home page](https://github.com/exposir)
