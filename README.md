@@ -1,5 +1,3 @@
-# 收藏
-
 ## 新闻 
 - [掘金酱](https://e.juejin.cn/)
 
@@ -43,18 +41,6 @@
 
 - [手写mini-vue](https://www.bilibili.com/video/BV1Rt4y1B7sC)
 
-### 官方文档
-- [React Native 中文网 ](https://www.react-native.cn/)
-
-- [React 官方中文文档](https://zh-hans.reactjs.org/)
-
-- [Vue2.js](https://cn.vuejs.org/)
-
-- [vue3.js](https://v3.cn.vuejs.org/)
-
-- [TypeScript中文网](https://www.tslang.cn/docs/home.html)
-
-- [MobX 中文文档](https://cn.mobx.js.org/)
 
 ### 其他
 - [node 6.0 教程](https://yunnysunny.gitbooks.io/nodebook/content/00_preface.html)
@@ -118,6 +104,20 @@
 
 - [Flex 布局教程](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
+
+### 官方文档
+
+- [React Native 中文网 ](https://www.react-native.cn/)
+
+- [React 官方中文文档](https://zh-hans.reactjs.org/)
+
+- [Vue2.js](https://cn.vuejs.org/)
+
+- [vue3.js](https://v3.cn.vuejs.org/)
+
+- [TypeScript中文网](https://www.tslang.cn/docs/home.html)
+
+- [MobX 中文文档](https://cn.mobx.js.org/)
 
 
 ## github 镜像站
