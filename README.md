@@ -1,18 +1,17 @@
+# 收藏
+
 ## 新闻 
-- [掘金酱](https://e.juejin.cn/)
-
-- [字节前端](https://www.zhihu.com/org/zi-jie-qian-duan)
-
 - [人民日报](http://www.people.com.cn/GB/59476/index.html)
-
-- [法国新闻社](https://www.rfi.fr/cn/%E6%BB%9A%E5%8A%A8%E6%96%B0%E9%97%BB/)
 
 - [路透通讯社](https://cn.reuters.com/)
 
 - [财新网](https://www.caixin.com/)
 
+- [华尔街见闻](https://wallstreetcn.com/)
 
 ## 技术
+- [字节前端](https://www.zhihu.com/org/zi-jie-qian-duan)
+
 - [现代 JavaScript 教程](https://zh.javascript.info/)
 
 - [JavaScript 20 年](https://cn.history.js.org/index.html)
@@ -92,11 +91,10 @@
 - [若川源码系列](https://lxchuan12.gitee.io/)
 
 
-
 ## 阮一峰
 - [个人网站](http://www.ruanyifeng.com/home.html)
 
-[E6入门教程](https://github.com/exposir/es6tutorial/blob/gh-pages/SUMMARY.md)
+- [E6入门教程](https://github.com/exposir/es6tutorial/blob/gh-pages/SUMMARY.md)
 
 - [SSH 入门教程](https://www.ruanyifeng.com/blog/2020/12/ssh-tutorial.html)
 
@@ -105,8 +103,18 @@
 - [Flex 布局教程](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 
-### 官方文档
+## 其他
+[lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)
 
+
+## 文章
+- [React Native 原理与实践](https://juejin.cn/post/6916452544956858382#heading-19)
+
+
+## 库
+- https://www.npmjs.com/package/react-devtools
+
+### 官方文档
 - [React Native 中文网 ](https://www.react-native.cn/)
 
 - [React 官方中文文档](https://zh-hans.reactjs.org/)
@@ -125,5 +133,3 @@
 - https://hub.fastgit.org/
 - https://github.wuyanzheshui.workers.dev/
 
-
-## 收藏的文章
