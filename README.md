@@ -9,6 +9,12 @@
 
 - [华尔街见闻](https://wallstreetcn.com/)
 
+- [纽约时报](https://cn.nytimes.com/)
+
+- [华尔街日报](https://cn.wsj.com/)
+
+
+
 ## 技术
 - [字节前端](https://www.zhihu.com/org/zi-jie-qian-duan)
 
@@ -23,6 +29,8 @@
 - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
 - [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
+
+- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览
 
 ### React
 - [React.js 小书](https://hyf.js.org/react-naive-book/)
@@ -54,6 +62,7 @@
 
 - [Deno 中文手册](https://manual.deno.js.cn/)
 
+- [Introduction - Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)
 
 ## 面试
 - [fe-interview](https://github.com/haizlin/fe-interview)
@@ -108,13 +117,12 @@
 
 [lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)
 
+[GitHub Users Global Ranking.](https://wangchujiang.com/github-rank/)
 
-## 文章
-- [React Native 原理与实践](https://juejin.cn/post/6916452544956858382#heading-19)
-
+[第一杂志网 - PDF杂志-免费杂志下载](https://diyizazhi.com)
 
 ## 库
-- https://www.npmjs.com/package/react-devtools
+- [react-devtools  -  npm](https://www.npmjs.com/package/react-devtools)
 
 ### 官方文档
 - [React Native 中文网 ](https://www.react-native.cn/)
@@ -128,6 +136,9 @@
 - [TypeScript中文网](https://www.tslang.cn/docs/home.html)
 
 - [MobX 中文文档](https://cn.mobx.js.org/)
+
+## 文章
+- [React Native 原理与实践](https://juejin.cn/post/6916452544956858382#heading-19)
 
 
 ## github 镜像站
