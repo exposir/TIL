@@ -22,7 +22,7 @@
 
 - [第一杂志网 - PDF杂志-免费杂志下载](https://diyizazhi.com)
 
-- https://0011.one/Ï
+- https://0011.one/
 
 
 ## 技术
