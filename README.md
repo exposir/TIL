@@ -13,6 +13,16 @@
 
 - [华尔街日报](https://cn.wsj.com/)
 
+## 娱乐
+- [Best of JS](https://bestofjs.org/timeline)
+
+- [lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)
+
+- [GitHub Users Global Ranking.](https://wangchujiang.com/github-rank/)
+
+- [第一杂志网 - PDF杂志-免费杂志下载](https://diyizazhi.com)
+
+- https://0011.one/Ï
 
 
 ## 技术
@@ -111,15 +121,6 @@
 
 - [Flex 布局教程](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
-
-## 其他
-[Best of JS](https://bestofjs.org/timeline)
-
-[lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)
-
-[GitHub Users Global Ranking.](https://wangchujiang.com/github-rank/)
-
-[第一杂志网 - PDF杂志-免费杂志下载](https://diyizazhi.com)
 
 ## 库
 - [react-devtools  -  npm](https://www.npmjs.com/package/react-devtools)
