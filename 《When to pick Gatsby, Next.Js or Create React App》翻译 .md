@@ -96,3 +96,5 @@ Next.js 的劣势：
 我们需要分析我们想要构建什么类型的网站，以便在 CRA、Gatsby 或 Next.js 之间做出正确的选择，因为他们之间差距很大，适用于不同的场景。
 
 如果我们对项目的需求有足够的了解，在这三者之间挑选就很容易多了。
+
+原文链接：https://dev.to/alexandrudanpop/react-applications-when-to-pick-gatsby-or-next-js-or-create-react-app-50l1
