@@ -10,7 +10,7 @@ Currently learning React related technologies
 
 Open Source Enthusiast
 
-- [Enjoy Life 😄](https://github.com/exposir/Personal-Blog/tree/master/News)
+[Enjoy Life 😄](https://github.com/exposir/Personal-Blog/tree/master/News)
 
 ## My Articles
 

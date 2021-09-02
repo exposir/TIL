@@ -22,9 +22,9 @@
 
 - [GitHub Users Global Ranking.](https://wangchujiang.com/github-rank/)
 
-- [第一杂志网 - PDF 杂志-免费杂志下载](https://diyizazhi.com)
+- [PDF 杂志下载](https://diyizazhi.com)
 
-- https://0011.one/
+- [从零到一](https://0011.one/)
 
 ## 技术
 
@@ -42,7 +42,7 @@
 
 - [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
 
-- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览
+- [重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览)
 
 ### React
 
