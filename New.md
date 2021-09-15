@@ -100,6 +100,8 @@
 
 ## 博客
 
+- https://antfu.me/
+
 - [Overreacted — A blog by Dan Abramov](https://overreacted.io/)
 
 - [张鑫旭的个人主页](https://www.zhangxinxu.com/)
