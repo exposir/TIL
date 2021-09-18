@@ -12,3 +12,7 @@
 ## 技术
 
 - [闭包](https://github.com/exposir/Personal-Blog/issues/73)
+
+## 其他
+
+- [牛肉干营养成分表](https://github.com/exposir/Personal-Blog/issues/74)
