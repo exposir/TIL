@@ -3,10 +3,9 @@
 
 - [Enjoy Life](https://github.com/exposir/Personal-Blog/issues/50)
 
-- [Leetcode Top 100](https://github.com/exposir/Personal-Blog/issues/50)
-
 - [稍后阅读](https://github.com/exposir/Personal-Blog/issues/75)
 
+- [Leetcode Top 100](https://github.com/exposir/Personal-Blog/issues/50)
 
 ## 文章
 
