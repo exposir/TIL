@@ -7,6 +7,8 @@
 
 - [Leetcode Top 100](https://github.com/exposir/Personal-Blog/issues/80)
 
+- [有趣的题目](https://github.com/exposir/Personal-Blog/issues/49)
+
 ## 文章
 
 - [《When to pick Gatsby, Next.Js or Create React App》翻译 ](https://github.com/exposir/Personal-Blog/issues/48)
@@ -28,8 +30,6 @@
 - [React](https://github.com/exposir/Personal-Blog/issues/8)
 
 - [Vue](https://github.com/exposir/Personal-Blog/issues/7)
-
-- [有趣的题目](https://github.com/exposir/Personal-Blog/issues/49)
 
 - [闭包](https://github.com/exposir/Personal-Blog/issues/73)
 
