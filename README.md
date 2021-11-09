@@ -10,9 +10,6 @@
 
 - [有趣的题目](https://github.com/exposir/Personal-Blog/issues/49)
 
-## 日常
-
-- 11-12 月规划
 
 ## 文章
 
