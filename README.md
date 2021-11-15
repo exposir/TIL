@@ -79,4 +79,4 @@
 
 - [牛肉干营养成分表](https://github.com/exposir/Personal-Blog/issues/74)
 
-- [牛肉干营养成分表](https://github.com/exposir/Personal-Blog/issues/81)
+- [互联网常用名词](https://github.com/exposir/Personal-Blog/issues/81)
