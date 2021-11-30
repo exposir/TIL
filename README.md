@@ -2,6 +2,9 @@
 
 ## Pin
 
+- 用mac看技术书 用手机ipad看其他书
+- 技术书尽量用pdf 其他尽量用微信读书
+
 - [Enjoy Life](https://github.com/exposir/Personal-Blog/issues/50)
 
 - [稍后阅读](https://github.com/exposir/Personal-Blog/issues/75)
