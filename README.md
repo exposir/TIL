@@ -2,8 +2,8 @@
 
 ## Pin
 
-- 用mac看技术书 用手机ipad看其他书
-- 技术书尽量用pdf 其他尽量用微信读书
+- 用 mac 看技术书 用手机 ipad 看其他书
+- 技术书尽量用 pdf 其他尽量用微信读书
 
 - [Enjoy Life](https://github.com/exposir/Personal-Blog/issues/50)
 
@@ -12,7 +12,6 @@
 - [Leetcode Top 100](https://github.com/exposir/Personal-Blog/issues/80)
 
 - [有趣的题目](https://github.com/exposir/Personal-Blog/issues/49)
-
 
 ## 文章
 
@@ -42,7 +41,7 @@
 
 - [性能优化](https://github.com/exposir/Personal-Blog/issues/16)
 
-- [HTTP状态码](https://github.com/exposir/Personal-Blog/issues/14)
+- [HTTP 状态码](https://github.com/exposir/Personal-Blog/issues/14)
 
 - [gatsby](https://github.com/exposir/Personal-Blog/issues/13)
 
@@ -52,7 +51,7 @@
 
 - [promise](https://github.com/exposir/Personal-Blog/issues/5)
 
-- [JavaScript特性、原型、原型链、继承](https://github.com/exposir/Personal-Blog/issues/10)
+- [JavaScript 特性、原型、原型链、继承](https://github.com/exposir/Personal-Blog/issues/10)
 
 - [观察者模式：Proxy、Reflect、Object.defineProperty](https://github.com/exposir/Personal-Blog/issues/6)
 
@@ -82,4 +81,4 @@
 
 - [牛肉干营养成分表](https://github.com/exposir/Personal-Blog/issues/74)
 
-- [互联网常用名词](https://github.com/exposir/Personal-Blog/issues/81)
+- [互联网常用名词](https://github.com/exposir/personal-blog/blob/master/%E5%85%B6%E4%BB%96/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
