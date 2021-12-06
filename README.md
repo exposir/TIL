@@ -5,13 +5,13 @@
 - 用 mac 看技术书 用手机 ipad 看其他书
 - 技术书尽量用 pdf 其他尽量用微信读书
 
-- [Enjoy Life](https://github.com/exposir/Personal-Blog/issues/50)
+- [Enjoy Life](https://github.com/exposir/personal-blog/blob/master/Pin/Enjoy%20Life.md)
 
-- [稍后阅读](https://github.com/exposir/Personal-Blog/issues/75)
+- [稍后阅读](https://github.com/exposir/personal-blog/blob/master/Pin/%E7%A8%8D%E5%90%8E%E9%98%85%E8%AF%BB.md)
 
-- [Leetcode Top 100](https://github.com/exposir/Personal-Blog/issues/80)
+- [Leetcode Top 100](https://github.com/exposir/personal-blog/blob/master/Pin/Leetcode%20Top%20100.md)
 
-- [有趣的题目](https://github.com/exposir/Personal-Blog/issues/49)
+- [有趣的题目](https://github.com/exposir/personal-blog/blob/master/Pin/%E6%9C%89%E8%B6%A3%E7%9A%84%E9%A2%98%E7%9B%AE.md)
 
 ## 文章
 
@@ -24,10 +24,6 @@
 - [《他改变了中国：江泽民传》书摘 ](https://github.com/exposir/Personal-Blog/issues/53)
 
 ## 技术
-
-- [React](https://github.com/exposir/Personal-Blog/issues/8)
-
-- [Vue](https://github.com/exposir/Personal-Blog/issues/7)
 
 - [闭包](https://github.com/exposir/Personal-Blog/issues/73)
 
