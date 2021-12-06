@@ -17,17 +17,11 @@
 
 - [《When to pick Gatsby, Next.Js or Create React App》翻译 ](https://github.com/exposir/Personal-Blog/issues/48)
 
-- [Git 提交的正确姿势](https://github.com/exposir/Personal-Blog/issues/77)
-
 ## 笔记
 
 - [《Javascript 悟道》读书笔记 ](https://github.com/exposir/Personal-Blog/issues/51)
 
 - [《他改变了中国：江泽民传》书摘 ](https://github.com/exposir/Personal-Blog/issues/53)
-
-- [《React 进阶实践指南》 读书笔记](https://github.com/exposir/Personal-Blog/issues/52)
-
-- [《前端开发核心知识进阶》笔记](https://github.com/exposir/Personal-Blog/issues/54)
 
 ## 技术
 
