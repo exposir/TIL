@@ -1,5 +1,7 @@
 # 收藏
 
+- [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
+
 - https://reactnative.directory/
 
 - [React Docs Beta](https://beta.reactjs.org/)
@@ -7,6 +9,10 @@
 - [Introduction](https://animationbook.codedaily.io/introduction)
 
 - [Next.js 应用开发实践](https://nextjs-in-action-cn.taonan.lu/)
+
+- [Chinese Telegram-channels. Statistics, analytics, TOP chart. Telegram Analytics.](https://cn.tgstat.com/)
+
+[m1 - Geekbench 5 CPU Search - Geekbench Browser](https://browser.geekbench.com/v5/cpu/search?utf8=%E2%9C%93&q=m1)
 
 ## 新闻
 
@@ -96,6 +102,8 @@
 
 - [Vue 3 Reactivity](https://www.bilibili.com/video/BV1SZ4y1x7a9?spm_id_from=333.788.b_636f6d6d656e74.6)
 
+- [自顶向下学 React 源码 - 思否编程 - 学编程，来思否，升职加薪快人一步](https://ke.segmentfault.com/course/1650000023864436)
+
 ## 博客
 
 - [Randy’s Blog](https://lutaonan.com/)
@@ -115,14 +123,6 @@
 - [State of JS 2020](https://2020.stateofjs.com/zh-Hans/)
 
 - [若川源码系列](https://lxchuan12.gitee.io/)
-
-## 库
-
-- [react-devtools - npm](https://www.npmjs.com/package/react-devtools)
-
-- [humps - npm (npmjs.com)](https://www.npmjs.com/package/humps)
-
-- [GitHub - localtunnel/localtunnel: expose yourself](https://github.com/localtunnel/localtunnel)
 
 ## 文章
 
@@ -156,8 +156,38 @@
 
 - [C 语言教程](https://wangdoc.com/clang/)
 
+## 库
+
+- [react-devtools - npm](https://www.npmjs.com/package/react-devtools)
+
+- [humps - npm (npmjs.com)](https://www.npmjs.com/package/humps)
+
+- [GitHub - localtunnel/localtunnel: expose yourself](https://github.com/localtunnel/localtunnel)
+
+- [increase-memory-limit - npm](https://www.npmjs.com/package/increase-memory-limit)
+
 ## github 镜像站
 
 - https://github.com.cnpmjs.org/
 - https://hub.fastgit.org/
 - https://github.wuyanzheshui.workers.dev/
+
+## 极客时间
+
+- [数据结构与算法之美](https://time.geekbang.org/column/intro/100017301?tab=catalog)
+
+- [重学前端](https://time.geekbang.org/column/intro/100023201)
+
+- [玩转 webpack](https://time.geekbang.org/course/intro/100028901)
+
+- [算法面试通关 40 讲](https://time.geekbang.org/course/intro/100019701?tab=catalog)
+
+* [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
+
+- [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
+
+### 公开课
+
+- [Go 语言编程模式实战](https://time.geekbang.org/opencourse/intro/100069501)
+
+- [怎么理解 Serverless？](https://time.geekbang.org/opencourse/detail/100057801)
