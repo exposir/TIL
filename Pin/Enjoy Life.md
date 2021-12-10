@@ -1,5 +1,9 @@
 # 收藏
 
+- [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
+
+- [搜索中心  |  Google Developers](https://developers.google.com/search)
+
 - [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
 
 - https://reactnative.directory/
