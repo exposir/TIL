@@ -4,7 +4,7 @@
 
 `feat(internal): expose printHttpServerUrls`
 
-![](https://github.com/exposir/beds/blob/main/blog/WX20211216-125717@2x.png?raw=true)
+![](https://github.com/exposir/beds/blob/main/WX20211216-125717@2x.png?raw=true)
 
 ## fix (修复)
 
@@ -18,7 +18,7 @@
 
 `release: v2.7.0-beta.5`
 
-<!-- ![](https://github.com/exposir/beds/blob/main/blog/WX20211216-120105@2x.png?raw=true) -->
+![](https://github.com/exposir/beds/blob/main/WX20211216-120105@2x.png?raw=true)
 
 ## test (测试)
 
@@ -32,7 +32,7 @@
 
 `chore: more concise pnpm script verification`
 
-![](https://github.com/exposir/beds/blob/main/blog/WX20211216-130233@2x.png?raw=true)
+![](https://github.com/exposir/beds/blob/main/WX20211216-130233@2x.png?raw=true)
 
 ## docs (文档)
 
