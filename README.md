@@ -1,5 +1,12 @@
 # 锲而不舍 学海节观
 
+## 12 月计划
+
+- [ ] 缩短网上 🏄‍♀️ 时间 用于学习
+- [ ] 每天学习 React 新文档
+- [ ] 后台优化完成
+- [ ] 尽量每天去健身
+
 ## Pin
 
 - [Enjoy Life](https://github.com/exposir/personal-blog/blob/master/Pin/Enjoy%20Life.md)
