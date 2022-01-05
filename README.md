@@ -21,5 +21,4 @@
 ## 文章
 
 - [《When to pick Gatsby, Next.Js or Create React App》翻译](https://github.com/exposir/personal-blog/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8AWhen%20to%20pick%20Gatsby%2C%20Next.Js%20or%20Create%20React%20App%E3%80%8B%E7%BF%BB%E8%AF%91.md)
-- [前端全链路性能优化](https://github.com/exposir/Personal-Blog/issues/16)
-- [webpack](https://github.com/exposir/Personal-Blog/issues/16)
+- [有关 CDN 的几个问题](https://github.com/exposir/personal-blog/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8AWhen%20to%20pick%20Gatsby%2C%20Next.Js%20or%20Create%20React%20App%E3%80%8B%E7%BF%BB%E8%AF%91.md)
