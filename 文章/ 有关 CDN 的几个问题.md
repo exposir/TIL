@@ -1,5 +1,7 @@
 # 有关 CDN 的几个问题
 
+![](https://github.com/exposir/beds/blob/main/what-is-a-cdn.png?raw=true)
+
 ### 简单部署静态网站
 
 vscode -> github -> vercel(部署) -> cloufare(CDN）
