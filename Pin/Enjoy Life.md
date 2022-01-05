@@ -1,5 +1,19 @@
 # 收藏
 
+- [网站测速工具*超级 ping *多地点 ping 检测 - 爱站网](https://ping.aizhan.com/)
+
+- [Best of JS](https://bestofjs.org/)
+
+- https://yeasy.gitbook.io/docker_practice/
+
+- [nitter tweet view](https://nitter.domain.glass/)
+
+- [StackBlitz](https://stackblitz.com/)
+
+- -[6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
+
+- 精通正则表达式
+
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 
 - [搜索中心  |  Google Developers](https://developers.google.com/search)
@@ -128,6 +142,8 @@
 
 - [若川源码系列](https://lxchuan12.gitee.io/)
 
+- [黄玄的博客 | Hux Blog](https://huangxuan.me/)
+
 ## 文章
 
 - [React Native 原理与实践](https://juejin.cn/post/6916452544956858382#heading-19)
@@ -143,6 +159,8 @@
 - [PDF 杂志下载](https://diyizazhi.com)
 
 - [从零到一](https://0011.one/)
+
+- [ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/podcast/6177bab6b69226ed16a3ed41)
 
 - [Greasy Fork - 安全、实用的用户脚本大全](https://greasyfork.org/zh-CN)
 

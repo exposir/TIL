@@ -2,6 +2,8 @@
 
 ## 1 月计划
 
+**少做意义不大的事 只做列出的事**
+
 - [ ] Vercel
 - [ ] GitHub action tips
 - [ ] 学习 Rust
