@@ -4,6 +4,7 @@
 
 **少做意义不大的事 只做列出的事**
 
+- [ ] uiMacOS
 - [ ] Vercel
 - [ ] GitHub action tips
 - [ ] 学习 Rust
