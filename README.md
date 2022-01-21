@@ -229,12 +229,6 @@
 
 - [increase-memory-limit - npm](https://www.npmjs.com/package/increase-memory-limit)
 
-## github 镜像站
-
-- https://github.com.cnpmjs.org/
-- https://hub.fastgit.org/
-- https://github.wuyanzheshui.workers.dev/
-
 ## 极客时间
 
 - [数据结构与算法之美](https://time.geekbang.org/column/intro/100017301?tab=catalog)
