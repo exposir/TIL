@@ -15,10 +15,10 @@
 
 ## Pin
 
-- [Leetcode Top 100](~https://github.com/exposir/personal-blog/issues/96~)
-- [有趣的题目](~https://github.com/exposir/personal-blog/issues/96~)
-- [稍后阅读](~https://github.com/exposir/personal-blog/issues/93~)
-- [互联网常用名词](~https://github.com/exposir/personal-blog/issues/96~)
+- [Leetcode Top 100](https://github.com/exposir/personal-blog/issues/96)
+- [有趣的题目](https://github.com/exposir/personal-blog/issues/96)
+- [稍后阅读](https://github.com/exposir/personal-blog/issues/93)
+- [互联网常用名词](https://github.com/exposir/personal-blog/issues/96)
 
 ## Post
 
