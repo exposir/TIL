@@ -1,8 +1,8 @@
 # 锲而不舍 学海节观
 
-## 1 月计划
-
 ## 少做意义不大的事 只做列出的事
+
+### 一月计划
 
 - [ ] uiMacOS
 - [ ] Vercel
@@ -17,6 +17,7 @@
 
 - [Leetcode Top 100](~https://github.com/exposir/personal-blog/issues/96~)
 - [有趣的题目](~https://github.com/exposir/personal-blog/issues/96~)
+- [稍后阅读](~https://github.com/exposir/personal-blog/issues/93~)
 - [互联网常用名词](~https://github.com/exposir/personal-blog/issues/96~)
 
 **## Post**
