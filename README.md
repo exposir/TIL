@@ -20,9 +20,9 @@
 - [稍后阅读](~https://github.com/exposir/personal-blog/issues/93~)
 - [互联网常用名词](~https://github.com/exposir/personal-blog/issues/96~)
 
-**## Post**
+## Post
 
-**# 收藏**
+# 收藏
 
 - https://aaex.uk/
 
@@ -70,7 +70,7 @@
 
 [m1 - Geekbench 5 CPU Search - Geekbench Browser](~https://browser.geekbench.com/v5/cpu/search?utf8=%E2%9C%93&q=m1~)
 
-**## 新闻**
+## 新闻
 
 - [路透通讯社](~https://cn.reuters.com/~)
 
@@ -82,7 +82,7 @@
 
 - [华尔街日报](~https://cn.wsj.com/~)
 
-**## 技术**
+## 技术
 
 - [字节前端](~https://www.zhihu.com/org/zi-jie-qian-duan~)
 
@@ -106,7 +106,7 @@
 
 - [难凉热血](~https://nlrx-wjc.github.io/Blog/about/~)
 
-**### React**
+### React
 
 - [React.js 小书](~https://hyf.js.org/react-naive-book/~)
 
@@ -116,7 +116,7 @@
 
 - [Build your own React](~https://pomb.us/build-your-own-react/~)
 
-**### Vue**
+### Vue
 
 - [Vue.js 技术揭秘](~https://ustbhuangyi.github.io/vue-analysis/~)
 
@@ -124,7 +124,7 @@
 
 - [手写 mini-vue](~https://www.bilibili.com/video/BV1Rt4y1B7sC~)
 
-**### 其他**
+### 其他
 
 - [node 6.0 教程](~https://yunnysunny.gitbooks.io/nodebook/content/00_preface.html~)
 
@@ -140,7 +140,7 @@
 
 - [Introduction - Rust and WebAssembly](~https://rustwasm.github.io/docs/book/introduction.html~)
 
-**## 面试**
+## 面试
 
 - [fe-interview](~https://github.com/haizlin/fe-interview~)
 
@@ -150,7 +150,7 @@
 
 - [大厂前端面试题每日一题 | Vue | React | JS | Mysql | 面试题](~https://q.shanyue.tech/~)
 
-**## 课程**
+## 课程
 
 - tingPng: https://tinypng.com/
 
@@ -164,7 +164,7 @@
 
 - [自顶向下学 React 源码 - 思否编程 - 学编程，来思否，升职加薪快人一步](~https://ke.segmentfault.com/course/1650000023864436~)
 
-**## 博客**
+## 博客
 
 - [Randy’s Blog](~https://lutaonan.com/~)
 
@@ -186,11 +186,11 @@
 
 - [黄玄的博客 | Hux Blog](~https://huangxuan.me/~)
 
-**## 文章**
+## 文章
 
 - [React Native 原理与实践](~https://juejin.cn/post/6916452544956858382#heading-19~)
 
-**## 其他**
+## 其他
 
 - [Best of JS](~https://bestofjs.org/timeline~)
 
@@ -206,7 +206,7 @@
 
 - [Greasy Fork - 安全、实用的用户脚本大全](~https://greasyfork.org/zh-CN~)
 
-**## 阮一峰**
+## 阮一峰
 
 - [个人网站](~http://www.ruanyifeng.com/home.html~)
 
@@ -220,7 +220,7 @@
 
 - [C 语言教程](~https://wangdoc.com/clang/~)
 
-**## 库**
+## 库
 
 - [react-devtools - npm](~https://www.npmjs.com/package/react-devtools~)
 
@@ -230,7 +230,7 @@
 
 - [increase-memory-limit - npm](~https://www.npmjs.com/package/increase-memory-limit~)
 
-**## github 镜像站**
+## github 镜像站
 
 - https://github.com.cnpmjs.org/
 - https://hub.fastgit.org/
@@ -250,15 +250,15 @@
 
 - [跟月影学可视化](~https://time.geekbang.org/column/intro/100053801?tab=catalog~)
 
-**### 公开课**
+### 公开课
 
 - [Go 语言编程模式实战](~https://time.geekbang.org/opencourse/intro/100069501~)
 
 - [怎么理解 Serverless？](~https://time.geekbang.org/opencourse/detail/100057801~)
 
-**# 稍后阅读**
+# 稍后阅读
 
-**## 文章**
+## 文章
 
 [「万字整理 」这里有一份 Node.js 入门指南和实践,请注意查收 ❤️ - 知乎](~~https://zhuanlan.zhihu.com/p/99214437~~)Ï
 
