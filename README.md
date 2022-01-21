@@ -13,14 +13,6 @@
 - [ ] 后台优化完成
 - [ ] 尽量每天去健身
 
-## Post
-
-- [Leetcode Top 100](https://github.com/exposir/personal-blog/issues/96)
-
-- [有趣的题目](https://github.com/exposir/personal-blog/issues/96)
-
-- [互联网常用名词](https://zhuanlan.zhihu.com/p/451422134)
-
 # 收藏
 
 - https://aaex.uk/
