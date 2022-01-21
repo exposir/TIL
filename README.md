@@ -13,17 +13,13 @@
 - [ ] 后台优化完成
 - [ ] 尽量每天去健身
 
-## Pin
+## Post
 
 - [Leetcode Top 100](https://github.com/exposir/personal-blog/issues/96)
 
 - [有趣的题目](https://github.com/exposir/personal-blog/issues/96)
 
 - [互联网常用名词](https://zhuanlan.zhihu.com/p/451422134)
-
-## Post
-
-- https://www.zhihu.com/column/c_1453678596544401408
 
 # 收藏
 
