@@ -6,6 +6,8 @@
 
 ### 一月计划
 
+- [ ] 学习 javascript 高级程序设计
+- [ ] 坚持周刊
 - [ ] uiMacOS
 - [ ] Vercel
 - [ ] GitHub action tips
