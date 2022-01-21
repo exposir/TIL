@@ -15,13 +15,11 @@
 
 ## Pin
 
-[Leetcode Top 100](https://github.com/exposir/personal-blog/issues/96)
+- [Leetcode Top 100](https://github.com/exposir/personal-blog/issues/96)
 
-[有趣的题目](https://github.com/exposir/personal-blog/issues/96)
+- [有趣的题目](https://github.com/exposir/personal-blog/issues/96)
 
-[稍后阅读](https://github.com/exposir/personal-blog/issues/93)
-
-[互联网常用名词](https://github.com/exposir/personal-blog/issues/96)
+- [互联网常用名词](https://github.com/exposir/personal-blog/issues/96)
 
 ## Post
 
@@ -249,7 +247,7 @@
 
 - [算法面试通关 40 讲](https://time.geekbang.org/course/intro/100019701?tab=catalog)
 
-* [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
+- [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
 
 - [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
 
