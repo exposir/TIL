@@ -4,9 +4,14 @@
 
 ## 少做意义不大的事 只做列出的事
 
+### 2022 读书计划
+
+- [ ] Javascript 高级程序设计
+- [ ] 现代 Javascript 开发
+- [ ] Javascript 语言精粹
+
 ### 一月计划
 
-- [ ] 学习 javascript 高级程序设计
 - [ ] 坚持周刊
 - [ ] uiMacOS
 - [ ] Vercel
