@@ -19,9 +19,6 @@
     "type": "git",
     "url": "git+https://github.com/exposir/personal-blog.git"
   },
-  "resolutions": {
-    "watchpack": "1.6.1"
-  },
   "keywords": [
     "react",
     "vue"
