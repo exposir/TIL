@@ -23,7 +23,8 @@
     "watchpack": "1.6.1"
   },
   "keywords": [
-    "react"
+    "react",
+    "vue"
   ],
   "license": "MIT"
 }
