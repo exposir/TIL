@@ -3,7 +3,7 @@
     "markdown-it-mark": "^3.0.0",
     "vuepress": "^1.5.0"
   },
-  "name": "just-react",
+  "name": "personal-blog",
   "description": "React技术揭秘",
   "version": "1.0.0",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BetaSu/just-react.git"
+    "url": "git+https://github.com/exposir/personal-blog.git"
   },
   "resolutions": {
     "watchpack": "1.6.1"
