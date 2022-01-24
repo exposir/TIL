@@ -140,7 +140,7 @@ arr.length = 0; // 通过修改数组长度清空数组
 
 - 简单的 VNode 类
 
-```js
+```javascript
 class VNode {
   constructor(tag, data, children, text, elm) {
     /*当前节点的标签名*/

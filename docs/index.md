@@ -1,6 +1,6 @@
 # 锲而不舍 学海节观
 
-`使用github文件 不用 issue`
+使用github文件 不用 issue
 
 #### 少做意义不大的事 只做列出的事
 
@@ -48,7 +48,7 @@
 
 - [StackBlitz](https://stackblitz.com/)
 
-- -[6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
+- [6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
 
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 
