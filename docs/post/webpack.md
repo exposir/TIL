@@ -152,7 +152,7 @@ module: {
 ## 资源解析：解析 LESS、CSS
 
 - css-loader 用于加载 .css 文件，并且转换成 commonjs 对象
-- style-loader 将样式通过 <style> 标签插入到 head 中
+- style-loader 将样式通过 `<style>` 标签插入到 head 中
 - loader 是链式吊用，执行顺序是从右向左
 
 - webpack.config.js
