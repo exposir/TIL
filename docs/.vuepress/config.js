@@ -1,7 +1,7 @@
 module.exports = {
   title: "孟世博",
   description: "孟世博的博客",
-  dest: "dist",
+  dest: "public",
   serviceWorker: false,
   head: [["script", { src: "/assets/js/tj.js" }]],
   configureWebpack: {
