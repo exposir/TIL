@@ -32,8 +32,8 @@ vercel -> cloudflare
 
 ### github
 
-[image:30052C2F-0645-4A91-B3F6-B4E151DA016D-7284-00013A778F84D745/D7117858-48F6-4821-93E4-800489ACA32F.png]
+![](https://cdn.jsdelivr.net/gh/exposir/beds@main/blog/D7117858-48F6-4821-93E4-800489ACA32F.png)
 
 ### vercel
 
-[image:1C6F797F-F84A-47EA-9E95-1418ADFB767B-7284-00013A880B4A178B/04C8F52E-B81A-481F-BE66-757FB3F1D5AE.png]
+![](https://cdn.jsdelivr.net/gh/exposir/beds@main/blog/04C8F52E-B81A-481F-BE66-757FB3F1D5AE.png)
