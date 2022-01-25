@@ -1,7 +1,5 @@
 # 锲而不舍 学海节观
 
-使用 github 文件 不用 issue
-
 #### 少做意义不大的事 只做列出的事
 
 ### 2022 读书计划
@@ -22,48 +20,31 @@
 - [ ] 后台优化完成
 - [ ] 尽量每天去健身
 
+
+
+- [GitHub - yjhjstz/deep-into-node: 深入理解Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
+
 - https://aaex.uk/
-
 - [显卡天梯图](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)
-
 - [All Black Screen | Make Your Screen Black](https://allblackscreen.com/)
-
 - [2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
-
 - [Migrate from GitHub to jsDelivr](https://www.jsdelivr.com/github)
-
 - [Never | 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/neverType.html)
-
 - https://dev.to/
-
 - [ECMAScript Proposals](https://www.proposals.es/)
-
 - [网站测速工具*超级 ping *多地点 ping 检测 - 爱站网](https://ping.aizhan.com/)
-
 - [Best of JS](https://bestofjs.org/)
-
 - https://yeasy.gitbook.io/docker_practice/
-
 - [nitter tweet view](https://nitter.domain.glass/)
-
 - [StackBlitz](https://stackblitz.com/)
-
 - [6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
-
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
-
 - [搜索中心  |  Google Developers](https://developers.google.com/search)
-
 - [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
-
 - https://reactnative.directory/
-
 - [React Docs Beta](https://beta.reactjs.org/)
-
 - [Introduction](https://animationbook.codedaily.io/introduction)
-
 - [Next.js 应用开发实践](https://nextjs-in-action-cn.taonan.lu/)
-
 - [Chinese Telegram-channels. Statistics, analytics, TOP chart. Telegram Analytics.](https://cn.tgstat.com/)
 
 [m1 - Geekbench 5 CPU Search - Geekbench Browser](https://browser.geekbench.com/v5/cpu/search?utf8=%E2%9C%93&q=m1)
@@ -83,26 +64,17 @@
 ## 技术
 
 - [字节前端](https://www.zhihu.com/org/zi-jie-qian-duan)
-
 - [现代 JavaScript 教程](https://zh.javascript.info/)
-
 - [JavaScript 20 年](https://cn.history.js.org/index.html)
-
 - [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
-
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
-
 - [typescript-book](https://github.com/basarat/typescript-book)
-
 - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
-
 - [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
-
 - [重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览)
-
 - [MobX 中文文档](https://cn.mobx.js.org/)
-
 - [难凉热血](https://nlrx-wjc.github.io/Blog/about/)
+- [剑指前端offer](https://github.com/exposir/awesome-interview)
 
 ### React
 
@@ -165,23 +137,15 @@
 ## 博客
 
 - [Randy’s Blog](https://lutaonan.com/)
-
 - https://antfu.me/
-
 - [Overreacted — A blog by Dan Abramov](https://overreacted.io/)
-
 - [张鑫旭的个人主页](https://www.zhangxinxu.com/)
-
 - [React Christmas](https://react.christmas/2020)
-
 - [山月 github](https://github.com/shfshanyue/blog)
-
 - [ssh 的博客 ](https://github.com/sl1673495/blogs)
-
 - [State of JS 2020](https://2020.stateofjs.com/zh-Hans/)
-
 - [若川源码系列](https://lxchuan12.gitee.io/)
-
+- [若川源码](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA5MjQwMzQyNw==&action=getalbum&album_id=1342211915371675650&scene=173&from_msgid=2650759428&from_itemidx=1&count=3&nolastread=1&scene=21#wechat_redirect)
 - [黄玄的博客 | Hux Blog](https://huangxuan.me/)
 
 ## 文章
@@ -221,29 +185,20 @@
 ## 库
 
 - [react-devtools - npm](https://www.npmjs.com/package/react-devtools)
-
 - [humps - npm (npmjs.com)](https://www.npmjs.com/package/humps)
-
 - [GitHub - localtunnel/localtunnel: expose yourself](https://github.com/localtunnel/localtunnel)
-
 - [increase-memory-limit - npm](https://www.npmjs.com/package/increase-memory-limit)
+- localtunnel
+- Pm2
 
 ## 极客时间
 
 - [数据结构与算法之美](https://time.geekbang.org/column/intro/100017301?tab=catalog)
-
 - [重学前端](https://time.geekbang.org/column/intro/100023201)
-
 - [玩转 webpack](https://time.geekbang.org/course/intro/100028901)
-
 - [算法面试通关 40 讲](https://time.geekbang.org/course/intro/100019701?tab=catalog)
-
 - [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
-
 - [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
 
-### 公开课
 
-- [Go 语言编程模式实战](https://time.geekbang.org/opencourse/intro/100069501)
 
-- [怎么理解 Serverless？](https://time.geekbang.org/opencourse/detail/100057801)
