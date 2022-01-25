@@ -38,8 +38,9 @@ module.exports = {
         title: "Post",
         collapsable: true,
         children: [
+          ["/post/重学 Javascript（一）", "重学 Javascript（一）"],
           ["/post/webpack", "webpack"],
-          ["/post/git提交指北", "git提交指北"],
+          ["/post/git 提交指北", "git 提交指北"],
           [
             "/post/《When to pick Gatsby, Next.Js or Create React App》翻译",
             "《When to pick Gatsby, Next.Js or Create React App》翻译",
@@ -54,7 +55,6 @@ module.exports = {
         title: "Note",
         collapsable: true,
         children: [
-          ["/note/重学 Javascript（一）", "重学 Javascript（一）"],
           [
             "/note/《Javascript 悟道》读书笔记 ",
             "《Javascript 悟道》读书笔记 ",
