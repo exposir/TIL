@@ -1,6 +1,6 @@
-[top100-1.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-1.pdf)
-[top100-2.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-2.pdf)
-[top100-3.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-3.pdf)
+- [top100-1.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-1.pdf)
+- [top100-2.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-2.pdf)
+- [top100-3.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-3.pdf)
 
 # 1. 两数之和
 
