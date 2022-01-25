@@ -1,6 +1,6 @@
-[1.pdf](https://github.com/exposir/personal-blog/files/7504394/1.pdf)
-[2.pdf](https://github.com/exposir/personal-blog/files/7504395/2.pdf)
-[3.pdf](https://github.com/exposir/personal-blog/files/7504400/3.pdf)
+[top100-1.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-1.pdf)
+[top100-2.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-2.pdf)
+[top100-3.pdf](https://cdn.jsdelivr.net/gh/exposir/weekly@master/beds/others/top100-3.pdf)
 
 # 1. 两数之和
 
