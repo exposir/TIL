@@ -10,7 +10,7 @@
 
 ### 一月计划
 
-- [ ] 坚持周刊
+- [x] 坚持周刊
 - [ ] uiMacOS
 - [ ] Vercel
 - [ ] GitHub action tips
