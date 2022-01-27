@@ -102,4 +102,3 @@ Next.js 的劣势 ⛔️：
 如果我们对项目的需求有足够的了解，在这三者之间挑选就很容易多了。
 
 原文链接：https://dev.to/alexandrudanpop/react-applications-when-to-pick-gatsby-or-next-js-or-create-react-app-50l1
-Ï
