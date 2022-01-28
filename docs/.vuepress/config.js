@@ -69,18 +69,18 @@ module.exports = {
         text: "Home",
         link: "/",
       },
-      {
-        text: "毛泽东",
-        link: "/maozedong/",
-      },
-      {
-        text: "任正非",
-        link: "/renzhengfei/",
-      },
-      {
-        text: "阮一峰",
-        link: "/ruanyifeng/",
-      },
+      // {
+      //   text: "毛泽东",
+      //   link: "/maozedong/",
+      // },
+      // {
+      //   text: "任正非",
+      //   link: "/renzhengfei/",
+      // },
+      // {
+      //   text: "阮一峰",
+      //   link: "/ruanyifeng/",
+      // },
     ],
     sidebar: {
       "/maozedong/": [],
