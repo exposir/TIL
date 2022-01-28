@@ -13,7 +13,7 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "push": "cd docs && cd ruanyifeng && git pull &&cd ../../&&git add . && git commit -m 'update' && git push "
+    "push": "cd docs && cd ruanyifeng && git pull && cd ../../&&git add . && git commit -m 'update' && git push "
   },
   "repository": {
     "type": "git",
