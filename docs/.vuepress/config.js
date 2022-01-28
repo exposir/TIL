@@ -78,11 +78,16 @@ module.exports = {
         link: "/renzhengfei/",
       },
       {
-        text: "阮一峰",
+        text: "科技爱好者周刊",
         link: "/ruanyifeng/",
+      },
+      {
+        text: "ES6",
+        link: "/es6tutorial/",
       },
     ],
     sidebar: {
+      "/es6tutorial/": [],
       "/maozedong/": [],
       "/renzhengfei/": [],
       "/ruanyifeng/": [],
