@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "markdown-it-mark": "^3.0.0",
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.9.7"
   },
   "name": "personal-blog",
   "description": "React技术揭秘",
