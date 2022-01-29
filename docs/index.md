@@ -1,12 +1,12 @@
 # 锲而不舍 学海节观
 
-2022 读书计划
+## 2022 读书计划
 
 - [ ] Javascript 高级程序设计
 - [ ] 现代 Javascript 开发
 - [ ] Javascript 语言精粹
 
-一月计划
+## 一月计划
 
 - [ ] Javascript 高级程序设计
 - [ ] 现代 Javascript 开发
@@ -20,6 +20,8 @@
 - [ ] 学完 React 新文档
 - [ ] 后台优化完成
 - [ ] 尽量每天去健身
+
+## 收藏
 
 - [GitHub - yjhjstz/deep-into-node: 深入理解 Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
 - https://aaex.uk/
@@ -37,7 +39,7 @@
 - [StackBlitz](https://stackblitz.com/)
 - [6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
-- [搜索中心  |  Google Developers](https://developers.google.com/search)
+- [搜索中心 | Google Developers](https://developers.google.com/search)
 - [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
 - https://reactnative.directory/
 - [React Docs Beta](https://beta.reactjs.org/)
