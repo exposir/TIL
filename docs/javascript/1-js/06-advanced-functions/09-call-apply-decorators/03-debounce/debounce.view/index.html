@@ -1,0 +1,24 @@
+<!doctype html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+
+在这个输入框中调用的是函数 <code>handler</code>：
+<br>
+<input id="input1" placeholder="type here">
+
+<p>
+
+在这个输入框中调用的是防抖函数 <code>debounce(handler, 1000)</code>：
+<br>
+<input id="input2" placeholder="type here">
+
+<p>
+<button id="result"><code>handler</code> 将结果放到了这儿</button>
+
+<script>
+  function handler(event) {
+    result.innerHTML = event.target.value;
+  }
+
+  input1.oninput = handler;
+  input2.oninput = _.debounce(handler, 1000);
+</script>

@@ -85,8 +85,13 @@ module.exports = {
         text: "ES6",
         link: "/es6tutorial/",
       },
+      {
+        text: "javascript",
+        link: "/javascript/",
+      },
     ],
     sidebar: {
+      "/javascript/": [],
       "/es6tutorial/": [],
       "/maozedong/": [],
       "/renzhengfei/": [],
