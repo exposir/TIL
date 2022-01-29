@@ -46,7 +46,7 @@ const sidebar = {
   ],
 };
 module.exports = {
-  title: "孟世博",
+  title: "Exposir",
   description: "孟世博的博客",
   dest: "public",
   serviceWorker: false,
@@ -70,23 +70,12 @@ module.exports = {
         link: "/",
       },
       {
-        text: "毛泽东",
-        link: "/maozedong/",
-      },
-      {
-        text: "任正非",
-        link: "/renzhengfei/",
-      },
-      {
-        text: "科技爱好者周刊",
-        link: "/ruanyifeng/",
-      },
-      {
-        text: "ES6",
-        link: "/es6tutorial/",
+        text: "Store",
+        link: "/store/",
       },
     ],
     sidebar: {
+      "/store/": [],
       "/es6tutorial/": [],
       "/maozedong/": [],
       "/renzhengfei/": [],
