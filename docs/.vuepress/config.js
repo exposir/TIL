@@ -76,10 +76,6 @@ module.exports = {
     ],
     sidebar: {
       "/store/": [],
-      "/es6tutorial/": [],
-      "/maozedong/": [],
-      "/renzhengfei/": [],
-      "/ruanyifeng/": [],
       collapsable: false,
       "/": sidebar.home,
     },
