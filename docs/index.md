@@ -23,6 +23,7 @@
 
 ## 收藏
 
+- [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
 - [GitHub - yjhjstz/deep-into-node: 深入理解 Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
 - https://aaex.uk/
 - [显卡天梯图](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)
