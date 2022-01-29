@@ -14,7 +14,7 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "push": "git add . && git commit -m 'update' && git push ",
-    "ruanyifeng": "cd docs && cd ruanyifeng && git pull && cd ../../&&"
+    "ruanyifeng": "cd docs && cd ruanyifeng && git pull && cd ../../"
   },
   "repository": {
     "type": "git",
