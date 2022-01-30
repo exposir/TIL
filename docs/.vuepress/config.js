@@ -44,7 +44,23 @@ module.exports = {
   description: "孟世博的博客",
   dest: "public",
   serviceWorker: false,
-  head: [["script", { src: "/assets/js/tj.js" }]],
+  head: [
+    [
+      "script",
+      {},
+      `
+      <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?5343da773d52d4e68e0bcaf4c1654722";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>      
+    `,
+    ],
+  ],
   configureWebpack: {
     resolve: {
       alias: {},
