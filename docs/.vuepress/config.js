@@ -5,15 +5,6 @@ const sidebar = {
     ["/pin/有趣的题目", "有趣的题目"],
     ["/pin/Leetcode Top 100", "Leetcode Top 100"],
     {
-      title: "Pin",
-      collapsable: true,
-      children: [
-        ["/pin/互联网常用名词", "互联网常用名词"],
-        ["/pin/有趣的题目", "有趣的题目"],
-        ["/pin/Leetcode Top 100", "Leetcode Top 100"],
-      ],
-    },
-    {
       title: "Post",
       collapsable: true,
       children: [
