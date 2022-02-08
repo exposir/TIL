@@ -23,6 +23,7 @@
 
 ## 收藏
 
+- https://www.windy.com
 - [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
 - [GitHub - yjhjstz/deep-into-node: 深入理解 Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
 - https://aaex.uk/
@@ -61,13 +62,13 @@
 
 - [字节前端](https://www.zhihu.com/org/zi-jie-qian-duan)
 - [现代 JavaScript 教程](https://zh.javascript.info/)
+- [重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览)
 - [JavaScript 20 年](https://cn.history.js.org/index.html)
 - [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
 - [typescript-book](https://github.com/basarat/typescript-book)
 - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 - [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
-- [重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览)
 - [MobX 中文文档](https://cn.mobx.js.org/)
 - [难凉热血](https://nlrx-wjc.github.io/Blog/about/)
 - [剑指前端 offer](https://github.com/exposir/awesome-interview)
@@ -109,7 +110,7 @@
 - [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
 - [Vue 3 Deep Dive with Evan You](https://www.bilibili.com/video/BV1rC4y187Vw)
 - [Vue 3 Reactivity](https://www.bilibili.com/video/BV1SZ4y1x7a9?spm_id_from=333.788.b_636f6d6d656e74.6)
-- [自顶向下学 React 源码 - 思否编程 - 学编程，来思否，升职加薪快人一步](https://ke.segmentfault.com/course/1650000023864436)
+- [自顶向下学 React 源码](https://ke.segmentfault.com/course/1650000023864436)
 
 ## 博客
 
