@@ -5,7 +5,7 @@ const sidebar = {
     ["/pin/有趣的题目", "有趣的题目"],
     ["/pin/Leetcode Top 100", "Leetcode Top 100"],
     {
-      title: "Post",
+      title: "文章",
       collapsable: true,
       children: [
         ["/post/重学 Javascript（一）", "重学 Javascript（一）"],
@@ -16,26 +16,16 @@ const sidebar = {
           "《When to pick Gatsby, Next.Js or Create React App》翻译",
         ],
         ["/post/学习之路", "学习之路"],
-        ["/post/有关 CDN 的几个问题", "有关 CDN 的几个问题"],
+        ["/post/我是怎样部署静态网站的", "我是怎样部署静态网站的"],
         ["/post/前端全链路性能优化", "前端全链路性能优化"],
         ["/post/缓存那些事", "缓存那些事"],
-      ],
-    },
-    {
-      title: "Note",
-      collapsable: true,
-      children: [
-        ["/note/《Javascript 悟道》读书笔记 ", "《Javascript 悟道》读书笔记 "],
+        ["/post/《Javascript 悟道》读书笔记 ", "《Javascript 悟道》读书笔记 "],
         [
-          "/note/《他改变了中国：江泽民传》书摘",
+          "/post/《他改变了中国：江泽民传》书摘",
           "《他改变了中国：江泽民传》书摘",
         ],
+        ["/postƒ/牛肉干营养成分表", "牛肉干营养成分表"],
       ],
-    },
-    {
-      title: "Else",
-      collapsable: true,
-      children: [["/else/牛肉干营养成分表", "牛肉干营养成分表"]],
     },
   ],
 };
