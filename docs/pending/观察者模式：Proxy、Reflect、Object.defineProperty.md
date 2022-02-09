@@ -1,8 +1,8 @@
 # proxy
 
-- https://zh.javascript.info/proxy
+- <https://zh.javascript.info/proxy>
 
-- https://es6.ruanyifeng.com/#docs/proxy
+- <https://es6.ruanyifeng.com/#docs/proxy>
 
 `let proxy = new Proxy(target, handler)`
 
