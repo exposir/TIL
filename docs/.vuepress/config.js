@@ -4,7 +4,7 @@ const sidebar = {
     {
       title: "文章",
       collapsable: true,
-      path: "/post/文章",
+      // path: "/post/文章",
       children: [
         ["/post/重学Javascript（一）", "重学Javascript（一）"],
         [
