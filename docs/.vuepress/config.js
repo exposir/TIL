@@ -10,7 +10,7 @@ const sidebar = {
         // ["/post/webpack", "webpack"],
         // ["/post/git提交指北", "git 提交指北"],
         [
-          "/post/《When to pick Gatsby, Next.Js or Create React App》翻译",
+          "/post/《When-to-pick-Gatsby,Next.Js-or-Create-React-App》翻译",
           "《When to pick Gatsby, Next.Js or Create React App》翻译",
         ],
         // ["/post/学习之路", "学习之路"],
