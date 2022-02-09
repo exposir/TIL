@@ -1,6 +1,6 @@
 # 有关 CDN 的几个问题
 
-### 简单部署静态网站
+## 简单部署静态网站
 
 vscode -> github -> vercel(部署) -> cloufare(CDN）
 
