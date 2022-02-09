@@ -2,27 +2,27 @@
 
 ## 收藏
 
-- https://www.windy.com
+- <https://www.windy.com>
 - [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
 - [GitHub - yjhjstz/deep-into-node: 深入理解 Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
-- https://aaex.uk/
+- <https://aaex.uk/>
 - [显卡天梯图](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)
 - [All Black Screen | Make Your Screen Black](https://allblackscreen.com/)
 - [2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
 - [Migrate from GitHub to jsDelivr](https://www.jsdelivr.com/github)
 - [Never | 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/neverType.html)
-- https://dev.to/
+- <https://dev.to/>
 - [ECMAScript Proposals](https://www.proposals.es/)
 - [网站测速工具*超级 ping *多地点 ping 检测 - 爱站网](https://ping.aizhan.com/)
 - [Best of JS](https://bestofjs.org/)
-- https://yeasy.gitbook.io/docker_practice/
+- <https://yeasy.gitbook.io/docker_practice/>
 - [nitter tweet view](https://nitter.domain.glass/)
 - [StackBlitz](https://stackblitz.com/)
 - [6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 - [搜索中心 | Google Developers](https://developers.google.com/search)
 - [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
-- https://reactnative.directory/
+- <https://reactnative.directory/>
 - [React Docs Beta](https://beta.reactjs.org/)
 - [Introduction](https://animationbook.codedaily.io/introduction)
 - [Next.js 应用开发实践](https://nextjs-in-action-cn.taonan.lu/)
@@ -84,7 +84,7 @@
 
 ## 课程
 
-- tingPng: https://tinypng.com/
+- tingPng: <https://tinypng.com/>
 - [前端开发核心知识进阶](https://gitbook.cn/gitchat/column/5c91c813968b1d64b1e08fde)
 - [React 进阶实践指南](https://juejin.cn/book/6945998773818490884)
 - [Vue 3 Deep Dive with Evan You](https://www.bilibili.com/video/BV1rC4y187Vw)
@@ -94,12 +94,12 @@
 ## 博客
 
 - [Randy’s Blog](https://lutaonan.com/)
-- https://antfu.me/
+- <https://antfu.me/>
 - [Overreacted — A blog by Dan Abramov](https://overreacted.io/)
 - [张鑫旭的个人主页](https://www.zhangxinxu.com/)
 - [React Christmas](https://react.christmas/2020)
 - [山月 github](https://github.com/shfshanyue/blog)
-- [ssh 的博客 ](https://github.com/sl1673495/blogs)
+- [ssh 的博客](https://github.com/sl1673495/blogs)
 - [State of JS 2020](https://2020.stateofjs.com/zh-Hans/)
 - [若川源码系列](https://lxchuan12.gitee.io/)
 - [若川源码](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA5MjQwMzQyNw==&action=getalbum&album_id=1342211915371675650&scene=173&from_msgid=2650759428&from_itemidx=1&count=3&nolastread=1&scene=21#wechat_redirect)
@@ -145,8 +145,6 @@
 - [算法面试通关 40 讲](https://time.geekbang.org/course/intro/100019701?tab=catalog)
 - [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
 - [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
-
-
 
 ## 2022 读书计划
 
