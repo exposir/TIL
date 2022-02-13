@@ -4,7 +4,7 @@
 - [top100-2.pdf](https://cdn.jsdelivr.net/gh/exposir/beds@main/others/top100-2.pdf)
 - [top100-3.pdf](https://cdn.jsdelivr.net/gh/exposir/beds@main/others/top100-3.pdf)
 
-## [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+## [1.两数之和(easy)](https://leetcode-cn.com/problems/two-sum/)
 
 ### 查找法
 
@@ -42,7 +42,7 @@ const twoSum = (nums, target) => {
 };
 ```
 
-## [2.两数相加（链表）](https://leetcode-cn.com/problems/add-two-numbers/submission)
+## [2.两数相加(medium、链表)](https://leetcode-cn.com/problems/add-two-numbers/submission)
 
 ### 方法一
 
@@ -69,7 +69,6 @@ var addTwoNumbers = function (l1, l2) {
         p3 = p3.next;
         tmp = (p1.val + tmp - p3.val) / 10
         p1 = p1.next;
-
     }
     // l2还有元素未遍历
     while (p2) {
@@ -77,7 +76,6 @@ var addTwoNumbers = function (l1, l2) {
         p3 = p3.next;
         tmp = (p2.val + tmp - p3.val) / 10
         p2 = p2.next;
-
     }
     if (tmp > 0) {
         p3.next = new ListNode(tmp)
@@ -101,8 +99,8 @@ var addTwoNumbers = function(l1, l2) {
     while (l1 || l2) {
         const x = l1 ? l1.val : 0
         const y = l2 ? l2.val : 0
-
         const total = x + y + carry
+
         curr.next = new ListNode(total % 10)
         curr = curr.next
         carry = Math.floor(total / 10)
@@ -110,7 +108,69 @@ var addTwoNumbers = function(l1, l2) {
         if (l1) l1 = l1.next
         if (l2) l2 = l2.next
     }
-    if (carry) curr.next = new ListNode(carry)
+    if (carry){
+        curr.next = new ListNode(carry)
+    } 
     return dummy.next
 };
 ```
+
+## [3.二分查找(easy)](https://leetcode-cn.com/problems/binary-search/)
+
+### 普通方法
+
+```js
+// 执行用时：72 ms, 在所有 JavaScript 提交中击败了69.71%的用户
+// 内存消耗：44 MB, 在所有 JavaScript 提交中击败了8.82%的用户
+
+var search = function (nums, target) {
+    for (let i = 0; i < nums.length; i++) {
+        j = nums.length - i - 1
+        const low = nums[i]
+        const high = nums[j]
+        if (low === target) {
+            return i
+        }
+        if (high === target) {
+            return j
+        }
+    }
+    return -1
+};
+```
+
+### 高效率
+
+```js
+// 执行用时：64 ms, 在所有 JavaScript 提交中击败了92.79%的用户
+// 内存消耗：44 MB, 在所有 JavaScript 提交中击败了8.52%的用户
+
+var search = function(nums, target) {
+    let low = 0
+    let high = nums.length - 1
+    while(low <= high) {
+        const mid = Math.floor((high - low) / 2) + low   //求中间坐标
+        const num = nums[mid]
+        if(num === target) {
+            return mid
+        } else if(num > target) {
+            high = mid - 1 
+        } else if(num < target) {
+            low = mid + 1
+        }
+    }
+    return -1
+};
+```
+
+## [4.用两个栈实现队列（easy)](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+
+## [5.无重复字符的最长子串(medium)](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+## [6.整数反转(easy)](https://leetcode-cn.com/problems/reverse-integer/)
+
+## [7.最长回文子串(medium)](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
+## [8.组合两个表(easy)](https://leetcode-cn.com/problems/combination-sum-ii/)
+
+## [9.三数之和(medium)](https://leetcode-cn.com/problems/3sum/)
