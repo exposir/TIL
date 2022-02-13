@@ -2,6 +2,8 @@
 
 ## 收藏
 
+- https://web.archive.org/
+
 - <https://vercel.com/>
 - <https://www.windy.com>
 - [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
