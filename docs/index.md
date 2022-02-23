@@ -2,15 +2,15 @@
 
 ## 收藏
 
-- https://www.bilibili.com/video/BV1mu411R7qw/
-- https://web.archive.org/
-
+- <https://www.bilibili.com/video/BV1mu411R7qw/>
+- <https://web.archive.org/>
 - <https://vercel.com/>
+- [TypeScript手册](https://bosens-china.github.io/Typescript-manual/)
+- <https://web.archive.org/>
 - <https://www.windy.com>
 - [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
 - [GitHub - yjhjstz/deep-into-node: 深入理解 Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
 - <https://aaex.uk/>
-- [显卡天梯图](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)
 - [All Black Screen | Make Your Screen Black](https://allblackscreen.com/)
 - [2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
 - [Migrate from GitHub to jsDelivr](https://www.jsdelivr.com/github)
@@ -55,6 +55,13 @@
 - [MobX 中文文档](https://cn.mobx.js.org/)
 - [难凉热血](https://nlrx-wjc.github.io/Blog/about/)
 - [剑指前端 offer](https://github.com/exposir/awesome-interview)
+- [node 6.0 教程](https://yunnysunny.gitbooks.io/nodebook/content/00_preface.html)
+- [Docker —— 从入门到实践](https://yeasy.gitbook.io/docker_practice/)
+- [算法 101](https://101.zoo.team/)
+- [Rust 程序设计语言 - Rust 程序设计语言 简体中文版](https://kaisery.github.io/trpl-zh-cn/)
+- [Deno 钻研之术](https://deno-tutorial.js.org/)
+- [Deno 中文手册](https://manual.deno.js.cn/)
+- [Introduction - Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)ƒ
 
 ### React
 
@@ -68,16 +75,6 @@
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
 - [Vite Design](https://vite-design.surge.sh/guide/)
 - [手写 mini-vue](https://www.bilibili.com/video/BV1Rt4y1B7sC)
-
-### 其他
-
-- [node 6.0 教程](https://yunnysunny.gitbooks.io/nodebook/content/00_preface.html)
-- [Docker —— 从入门到实践](https://yeasy.gitbook.io/docker_practice/)
-- [算法 101](https://101.zoo.team/)
-- [Rust 程序设计语言 - Rust 程序设计语言 简体中文版](https://kaisery.github.io/trpl-zh-cn/)
-- [Deno 钻研之术](https://deno-tutorial.js.org/)
-- [Deno 中文手册](https://manual.deno.js.cn/)
-- [Introduction - Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)
 
 ## 面试
 
@@ -122,6 +119,7 @@
 - [从零到一](https://0011.one/)
 - [ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/podcast/6177bab6b69226ed16a3ed41)
 - [Greasy Fork - 安全、实用的用户脚本大全](https://greasyfork.org/zh-CN)
+- [显卡天梯图](https://www.mydrivers.com/zhuanti/tianti/gpu/index.html)
 
 ## 阮一峰
 
