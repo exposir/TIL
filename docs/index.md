@@ -14,7 +14,6 @@
 - [All Black Screen | Make Your Screen Black](https://allblackscreen.com/)
 - [2021 JavaScript Rising Stars](https://risingstars.js.org/2021/en)
 - [Migrate from GitHub to jsDelivr](https://www.jsdelivr.com/github)
-- [Never | 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/neverType.html)
 - <https://dev.to/>
 - [ECMAScript Proposals](https://www.proposals.es/)
 - [网站测速工具*超级 ping *多地点 ping 检测 - 爱站网](https://ping.aizhan.com/)
@@ -25,7 +24,6 @@
 - [6. 跟 Anthony Fu 聊聊全职开源和他的故事 - ByteTalk | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/61b43114f7b64dfb09f2524c?s=eyJ1IjogIjYxNmFlZTVhZTBmNWU3MjNiYjhjNzE4MCJ9)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 - [搜索中心 | Google Developers](https://developers.google.com/search)
-- [大圣前端学习路线图 | 大圣编程自学网](https://shengxinjing.cn/)
 - <https://reactnative.directory/>
 - [React Docs Beta](https://beta.reactjs.org/)
 - [Introduction](https://animationbook.codedaily.io/introduction)
@@ -80,6 +78,7 @@
 - [typescript-book](https://github.com/basarat/typescript-book)
 - [TypeScript手册](https://bosens-china.github.io/Typescript-manual/)
 - https://jkchao.github.io/typescript-book-chinese/
+- [Never | 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/neverType.html)
 
 ## 面试
 
