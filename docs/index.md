@@ -2,10 +2,10 @@
 
 ## 收藏
 
+- [小宇宙 Web Worker](https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35)
 - <https://www.bilibili.com/video/BV1mu411R7qw/>
 - <https://web.archive.org/>
 - <https://vercel.com/>
-- [TypeScript手册](https://bosens-china.github.io/Typescript-manual/)
 - <https://web.archive.org/>
 - <https://www.windy.com>
 - [https://q.shanyue.tech/engineering/](https://q.shanyue.tech/engineering/)
@@ -48,8 +48,6 @@
 - [重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript#概览)
 - [JavaScript 20 年](https://cn.history.js.org/index.html)
 - [Deep JavaScript](https://exploringjs.com/deep-js/toc.html)
-- [TypeScript 入门教程](https://ts.xcatliu.com/)
-- [typescript-book](https://github.com/basarat/typescript-book)
 - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 - [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
 - [MobX 中文文档](https://cn.mobx.js.org/)
@@ -61,7 +59,7 @@
 - [Rust 程序设计语言 - Rust 程序设计语言 简体中文版](https://kaisery.github.io/trpl-zh-cn/)
 - [Deno 钻研之术](https://deno-tutorial.js.org/)
 - [Deno 中文手册](https://manual.deno.js.cn/)
-- [Introduction - Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)ƒ
+- [Introduction - Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)
 
 ### React
 
@@ -75,6 +73,13 @@
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
 - [Vite Design](https://vite-design.surge.sh/guide/)
 - [手写 mini-vue](https://www.bilibili.com/video/BV1Rt4y1B7sC)
+
+### Typescript 
+
+- [TypeScript 入门教程](https://ts.xcatliu.com/)
+- [typescript-book](https://github.com/basarat/typescript-book)
+- [TypeScript手册](https://bosens-china.github.io/Typescript-manual/)
+- https://jkchao.github.io/typescript-book-chinese/
 
 ## 面试
 
@@ -142,29 +147,15 @@
 ## 极客时间
 
 - [数据结构与算法之美](https://time.geekbang.org/column/intro/100017301?tab=catalog)
+
 - [重学前端](https://time.geekbang.org/column/intro/100023201)
+
 - [玩转 webpack](https://time.geekbang.org/course/intro/100028901)
+
 - [算法面试通关 40 讲](https://time.geekbang.org/course/intro/100019701?tab=catalog)
+
 - [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
+
 - [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
 
-## 2022 读书计划
-
-- [ ] Javascript 高级程序设计
-- [ ] 现代 Javascript 开发
-- [ ] Javascript 语言精粹
-
-## 一月计划
-
-- [ ] Javascript 高级程序设计
-- [ ] 现代 Javascript 开发
-- [ ] Javascript 语言精粹
-- [ ] 坚持周刊
-- [ ] uiMacOS
-- [ ] Vercel
-- [ ] GitHub action tips
-- [ ] 学习 Rust
-- [ ] 缩短网上 🏄‍♀️ 时间 用于学习
-- [ ] 学完 React 新文档
-- [ ] 后台优化完成
-- [ ] 尽量每天去健身
+  
