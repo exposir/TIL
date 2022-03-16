@@ -33,11 +33,11 @@
 
 ## 新闻
 
-- [路透通讯社](https://cn.reuters.com/)
-- [财新网](https://www.caixin.com/)
-- [华尔街见闻](https://wallstreetcn.com/)
-- [纽约时报](https://cn.nytimes.com/)
 - [华尔街日报](https://cn.wsj.com/)
+- [路透通讯社](https://cn.reuters.com/)
+- [法新社](https://www.rfi.fr/cn/)
+- [美联社](https://apnews.com/)
+- [财新网](https://www.caixin.com/)
 
 ## 技术
 
@@ -72,11 +72,11 @@
 - [Vite Design](https://vite-design.surge.sh/guide/)
 - [手写 mini-vue](https://www.bilibili.com/video/BV1Rt4y1B7sC)
 
-### Typescript 
+### Typescript
 
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
 - [typescript-book](https://github.com/basarat/typescript-book)
-- [TypeScript手册](https://bosens-china.github.io/Typescript-manual/)
+- [TypeScript 手册](https://bosens-china.github.io/Typescript-manual/)
 - https://jkchao.github.io/typescript-book-chinese/
 - [Never | 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/neverType.html)
 
@@ -156,5 +156,3 @@
 - [编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
 
 - [跟月影学可视化](https://time.geekbang.org/column/intro/100053801?tab=catalog)
-
-  
