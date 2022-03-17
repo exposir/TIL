@@ -445,7 +445,7 @@ XMLHttpRequest 对象的 API 被普遍认为比较难用，而 Fetch API 自从�
 
 ### XMLHttpRequest
 
-#### HTTP 头部
+### HTTP 头部
 
 - Accept:浏览器可以处理的内容类型。
 - Accept-Charset:浏览器可以显示的字符集。
@@ -460,7 +460,7 @@ XMLHttpRequest 对象的 API 被普遍认为比较难用，而 Fetch API 自从�
 
 如果需要发送额外的请求头部，可以使用 setRequestHeader()方法。服务器通过读取自定义头部可以确定适当的操作。自定义头部一定要区别于浏览器正常发送的头部， 否则可能影响服务器正常响应。有些浏览器允许重写默认头部，有些浏览器则不允许。
 
-#### GET 和 POST 请求
+### GET 和 POST 请求
 
 最常用的请求方法是 GET 请求，用于向服务器查询某些信息。查询字符串中的每个名和值都必须使用 encodeURIComponent()编码，所有名/值对必须以和号(&)分隔。
 
@@ -470,11 +470,11 @@ XMLHttpRequest 对象的 API 被普遍认为比较难用，而 Fetch API 自从�
 
 POST 请求相比 GET 请求要占用更多资源。从性能方面说，**发送相同数量的数据， GET 请求比 POST 请求要快两倍。**
 
-#### XMLHttpRequest Level 2
+### XMLHttpRequest Level 2
 
 XMLHttpRequest Level 2 又进一步发展了 XHR 对象。并非所有浏览器都实现了 XMLHttpRequest Level 2 的所有部分，但所有浏 览器都实现了其中部分功能。
 
-**1. FormData 类型**
+#### 1. FormData 类型
 
 现代 Web 应用程序中经常需要对表单数据进行序列化，因此 XMLHttpRequest Level 2 新增了 FormData 类型。FormData 类型便于表单序列化，也便于创建与表单类似格式的数据然后通过 XHR 发送。下面的代码创建了一个 FormData 对象，并填充了一些数据:
 
@@ -496,7 +496,7 @@ xhr.send(new FormData(form));
 
 使用 FormData 的另一个方便之处是不再需要给 XHR 对象显式设置任何请求头部了。XHR 对象能 够识别作为 FormData 实例传入的数据类型并自动配置相应的头部。
 
-**2. 超时**
+#### 2. 超时
 
 IE8 给 XHR 对象增加了一个 timeout 属性，用于表示发送请求后等待多少毫秒，如果响应不成功 就中断请求。之后所有浏览器都在自己的 XHR 实现中增加了这个属性。
 
@@ -507,7 +507,7 @@ xhr.ontimeout = function () {
 };
 ```
 
-**3. overrideMimeType()方法**
+#### 3. overrideMimeType()方法
 
 ```js
 let xhr = new XMLHttpRequest();
@@ -518,7 +518,7 @@ xhr.send(null);
 
 这个例子强制让 XHR 把响应当成 XML 而不是纯文本来处理。为了正确覆盖响应的 MIME 类型， 必须在调用 send()之前调用 overrideMimeType()。
 
-#### 进度事件
+### 进度事件
 
 Progress Events 是 W3C 的工作草案，定义了客户端-服务器端通信。这些事件最初只针对 XHR，现 在也推广到了其他类似的 API。有以下 6 个进度相关的事件。
 
