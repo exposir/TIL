@@ -323,6 +323,26 @@ DOM2 Traversal and Range 模块定义了与 DOM 结构交互的不同方式。
 
 ## 第十八章 动画与 Canvas 图形
 
+### 使用 requsetAnimationFrame() 节流
+
+```js
+let enabled = true;
+
+function expensiveOperation() {
+  console.log("do", Date.now());
+}
+
+window.addEventListener("scroll", () => {
+  if (enabled) {
+    enabled = false;
+    window.requestanimationframe(expensiveOperation);
+    window.setTimeout(() => {
+      enabled = true;
+    }, 1000);
+  }
+});
+```
+
 ### 小结
 
 requestAnimationFrame 是简单但实用的工具，可以让 JavaScript 跟进浏览器渲染周期，从而更 加有效地实现网页视觉动效。
@@ -404,12 +424,10 @@ IE、Firefox、Chrome、Opera 和 Safari 都有 JavaScript 调试器，有的内
 
 ### 小结
 
-浏览器对使用 JavaScript 处理 XML 实现及相关技术相当支持。然而，由于早期缺少规范，常用的 功能出现了不同实现。DOM Level 2 提供了创建空 XML 文档的 API，但不能解析和序列化。浏览器为 解析和序列化 XML 实现了两个新类型。
+浏览器对使用 JavaScript 处理 XML 实现及相关技术相当支持。然而，由于早期缺少规范，常用的功能出现了不同实现。DOM Level 2 提供了创建空 XML 文档的 API，但不能解析和序列化。浏览器为解析和序列化 XML 实现了两个新类型。
 
 - DOMParser 类型是简单的对象，可以将 XML 字符串解析为 DOM 文档。
-- XMLSerializer 类型执行相反操作，将 DOM 文档序列化为 XML 字符串。 基于所有主流浏览器的实现，DOM Level 3 新增了针对 XPath API 的规范。该 API 可以让 JavaScript
-
-针对 DOM 文档执行任何 XPath 查询并得到不同数据类型的结果。
+- XMLSerializer 类型执行相反操作，将 DOM 文档序列化为 XML 字符串。 基于所有主流浏览器的实现，DOM Level 3 新增了针对 XPath API 的规范。该 API 可以让 JavaScript 针对 DOM 文档执行任何 XPath 查询并得到不同数据类型的结果。
 
 最后一个与 XML 相关的技术是 XSLT，目前并没有规范定义其 API。Firefox 最早增加了 XSLTProcessor 类型用于通过 JavaScript 处理转换。
 
