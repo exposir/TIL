@@ -474,7 +474,7 @@ POST 请求相比 GET 请求要占用更多资源。从性能方面说，**发�
 
 XMLHttpRequest Level 2 又进一步发展了 XHR 对象。并非所有浏览器都实现了 XMLHttpRequest Level 2 的所有部分，但所有浏 览器都实现了其中部分功能。
 
-1. FormData 类型
+**1. FormData 类型**
 
 现代 Web 应用程序中经常需要对表单数据进行序列化，因此 XMLHttpRequest Level 2 新增了 FormData 类型。FormData 类型便于表单序列化，也便于创建与表单类似格式的数据然后通过 XHR 发送。下面的代码创建了一个 FormData 对象，并填充了一些数据:
 
@@ -496,7 +496,7 @@ xhr.send(new FormData(form));
 
 使用 FormData 的另一个方便之处是不再需要给 XHR 对象显式设置任何请求头部了。XHR 对象能 够识别作为 FormData 实例传入的数据类型并自动配置相应的头部。
 
-2. 超时
+**2. 超时**
 
 IE8 给 XHR 对象增加了一个 timeout 属性，用于表示发送请求后等待多少毫秒，如果响应不成功 就中断请求。之后所有浏览器都在自己的 XHR 实现中增加了这个属性。
 
@@ -507,7 +507,7 @@ xhr.ontimeout = function () {
 };
 ```
 
-3. overrideMimeType()方法
+**3. overrideMimeType()方法**
 
 ```js
 let xhr = new XMLHttpRequest();
@@ -520,7 +520,7 @@ xhr.send(null);
 
 #### 进度事件
 
-Progress Events 是 W3C 的工作草案，定义了客户端  服务器端通信。这些事件最初只针对 XHR，现 在也推广到了其他类似的 API。有以下 6 个进度相关的事件。
+Progress Events 是 W3C 的工作草案，定义了客户端-服务器端通信。这些事件最初只针对 XHR，现 在也推广到了其他类似的 API。有以下 6 个进度相关的事件。
 
 - loadstart:在接收到响应的第一个字节时触发。
 - progress:在接收响应期间反复触发。
