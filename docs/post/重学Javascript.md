@@ -532,6 +532,30 @@ Progress Events 是 W3C 的工作草案，定义了客户端-服务器端通信�
 每次请求都会首先触发 loadstart 事件，之后是一个或多个 progress 事件，接着是 error、abort
 或 load 中的一个，最后以 loadend 事件结束。
 
+### 跨源资源共享
+
+CORS 背后的基本思路就是使用自定义的 HTTP 头部允许浏览器和服务器相互了解，以确实请求或响应 应该成功还是失败。
+
+对于简单的请求，比如 GET 或 POST 请求，没有自定义头部，而且请求体是 text/plain 类型， 这样的请求在发送时会有一个额外的头部叫 **Origin。** Origin 头部包含发送请求的页面的源(协议、 域名和端口)，以便服务器确定是否为其提供响应。
+
+`Origin: http://www.nczonline.net`
+
+如果服务器决定响应请求，那么应该发送 Access-Control-Allow-Origin 头部
+
+`Access-Control-Allow-Origin: http://www.nczonline.net`
+
+如果没有这个头部，或者有但源不匹配，则表明不会响应浏览器请求。否则，服务器就会处理这个 请求。注意，无论请求还是响应都不会包含 cookie 信息。现代浏览器通过 XMLHttpRequest 对象原生支持 CORS。在尝试访问不同源的资源时，这个行为 会被自动触发。
+
+出于安全考虑，跨域 XHR 对象也施加了一些额外限制。
+
+- 不能使用 setRequestHeader()设置自定义头部。
+- 不能发送和接收 cookie。
+- getAllResponseHeaders()方法始终返回空字符串。
+
+#### 预检请求
+
+CORS 通过一种叫预检请求(preflighted request)的服务器验证机制，允许使用自定义头部、除 GET 和 POST 之外的方法，以及不同请求体内容类型。
+
 ### 小结
 
 Ajax 是无须刷新当前页面即可从服务器获取数据的一个方法，具有如下特点。
