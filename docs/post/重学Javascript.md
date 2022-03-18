@@ -556,6 +556,39 @@ CORS 背后的基本思路就是使用自定义的 HTTP 头部允许浏览器和
 
 CORS 通过一种叫预检请求(preflighted request)的服务器验证机制，允许使用自定义头部、除 GET 和 POST 之外的方法，以及不同请求体内容类型。
 
+客户端
+
+```
+Origin: http://www.nczonline.net
+Access-Control-Request-Method: POST //请求希望使用的方法。
+Access-Control-Request-Headers: NCZ //(可选)要使用的逗号分隔的自定义头部列表。
+```
+
+服务端
+
+```
+Access-Control-Allow-Origin: http://www.nczonline.net //与简单请求相同。
+Access-Control-Allow-Methods: POST, GET //允许的方法(逗号分隔的列表)。
+Access-Control-Allow-Headers: NCZ //服务器允许的头部(逗号分隔的列表)
+Access-Control-Max-Age: 1728000 //缓存预检请求的秒数
+```
+
+#### 凭据请求
+
+默认情况下，跨源请求不提供凭据(cookie、HTTP 认证和客户端 SSL 证书)。
+
+客户端
+
+```js
+withCredentials：true
+```
+
+服务端
+
+```
+Access-Control-Allow-Credentials: true
+```
+
 ### 小结
 
 Ajax 是无须刷新当前页面即可从服务器获取数据的一个方法，具有如下特点。
@@ -630,3 +663,7 @@ ECMAScript 6 规范重新定义了浏览器模块，集之前两个系统之长�
 - 构建流程可以实现很多源代码处理任务的自动化。例如，可以运行 JavaScript 验证程序，确保没有语法错误和潜在的问题。
 - 压缩可以让文件在部署之前变得尽量小。
 - 启用 HTTP 压缩可以让网络传输的 JavaScript 文件尽可能小，从而提升页面的整体性能。
+
+```
+
+```
