@@ -589,6 +589,22 @@ withCredentials：true
 Access-Control-Allow-Credentials: true
 ```
 
+### 替代性跨源技术
+
+#### 图片探测
+
+这种动态创建图片的技术经常用于图片探测(image pings)。图片探测是与服务器之间简单、跨域、 26 单向的通信。数据通过查询字符串发送，响应可以随意设置，不过一般是位图图片或值为 204 的状态码。 浏览器通过图片探测拿不到任何数据，但可以通过监听 onload 和 onerror 事件知道什么时候能接收 到响应。
+
+```js
+let img = new Image();
+img.onload = img.onerror = function () {
+  alert("Done!");
+};
+img.src = "http://www.example.com/test?name=Nicholas";
+```
+
+图片探测频繁用于跟踪用户在页面上的点击操作或动态显示广告。当然，图片探测的缺点是只能发 送 GET 请求和无法获取服务器响应的内容。这也是只能利用图片探测实现浏览器与服务器单向通信的 原因。
+
 ### 小结
 
 Ajax 是无须刷新当前页面即可从服务器获取数据的一个方法，具有如下特点。
