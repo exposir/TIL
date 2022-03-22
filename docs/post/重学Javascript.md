@@ -445,6 +445,12 @@ XMLHttpRequest 对象的 API 被普遍认为比较难用，而 Fetch API 自从�
 
 ### XMLHttpRequest
 
+IE5 是第一个引入 XHR 对象的浏览器。这个对象是通过 ActiveX 对象实现并包含在 MSXML 库中 的。为此，XHR 对象的 3 个版本在浏览器中分别被暴露为 MSXML2.XMLHttp、MSXML2.XMLHttp.3.0 和 MXSML2.XMLHttp.6.0。
+
+所有现代浏览器都通过 XMLHttpRequest 构造函数原生支持 XHR 对象:
+
+let xhr = new XMLHttpRequest();
+
 ### HTTP 头部
 
 - Accept:浏览器可以处理的内容类型。
@@ -472,7 +478,7 @@ POST 请求相比 GET 请求要占用更多资源。从性能方面说，**发�
 
 ### XMLHttpRequest Level 2
 
-XMLHttpRequest Level 2 又进一步发展了 XHR 对象。并非所有浏览器都实现了 XMLHttpRequest Level 2 的所有部分，但所有浏 览器都实现了其中部分功能。
+XMLHttpRequest Level 2 又进一步发展了 XHR 对象。并非所有浏览器都实现了 XMLHttpRequest Level 2 的所有部分，但所有浏览器都实现了其中部分功能。
 
 #### 1. FormData 类型
 
@@ -593,7 +599,7 @@ Access-Control-Allow-Credentials: true
 
 #### 图片探测
 
-这种动态创建图片的技术经常用于图片探测(image pings)。图片探测是与服务器之间简单、跨域、 26 单向的通信。数据通过查询字符串发送，响应可以随意设置，不过一般是位图图片或值为 204 的状态码。 浏览器通过图片探测拿不到任何数据，但可以通过监听 onload 和 onerror 事件知道什么时候能接收 到响应。
+这种动态创建图片的技术经常用于图片探测(image pings)。图片探测是与服务器之间简单、跨域、单向的通信。数据通过查询字符串发送，响应可以随意设置，不过一般是位图图片或值为 204 的状态码。 浏览器通过图片探测拿不到任何数据，但可以通过监听 onload 和 onerror 事件知道什么时候能接收 到响应。
 
 ```js
 let img = new Image();
@@ -603,7 +609,63 @@ img.onload = img.onerror = function () {
 img.src = "http://www.example.com/test?name=Nicholas";
 ```
 
-图片探测频繁用于跟踪用户在页面上的点击操作或动态显示广告。当然，图片探测的缺点是只能发 送 GET 请求和无法获取服务器响应的内容。这也是只能利用图片探测实现浏览器与服务器单向通信的 原因。
+图片探测频繁用于跟踪用户在页面上的点击操作或动态显示广告。当然，图片探测的缺点是只能发送 GET 请求和无法获取服务器响应的内容。这也是只能利用图片探测实现浏览器与服务器单向通信的原因。
+
+#### JSONP
+
+JSONP 是“JSON with padding”的简写，是在 Web 服务上流行的一种 JSON 变体。
+
+SONP 调用是通过动态创建 `<script>` 元素并为 src 属性指定跨域 URL 实现的。
+
+只能发送 get 请求，缺点是不好确定 JSONP 请求是否失败。
+
+```js
+function handleResponse(response) {
+  console.log(`
+          You're at IP address ${response.ip}, which is in
+          ${response.city}, ${response.region_name}`);
+}
+let script = document.createElement("script");
+script.src = "http://freegeoip.net/json/?callback=handleResponse";
+document.body.insertBefore(script, document.body.firstChild);
+```
+
+### Fetch
+
+Fetch API 能够执行 XMLHttpRequest 对象的所有任务，但更容易使用，接口也更现代化，能够在 Web 工作线程等现代 Web 工具中使用。XMLHttpRequest 可以选择异步，而 Fetch API 则必须是异步。Fetch API 是 WHATWG 的一个“活标准”(living standard)，用规范原文说，就是“Fetch 标准定义请求、响应，以及绑定二者的流程:**获取(fetch)**”。
+
+Fetch API 本身是使用 JavaScript 请求资源的优秀工具，同时这个 API 也能够应用在服务线程 (service worker)中，提供拦截、重定向和修改通过 fetch()生成的请求接口。
+
+#### 中断请求
+
+Fetch API 支持通过 AbortController/AbortSignal 对中断请求。调用 AbortController. abort()会中断所有网络传输，特别适合希望停止传输大型负载的情况。中断进行中的 fetch() 请求会导致包含错误的拒绝。
+
+```js
+let abortController = new AbortController();
+fetch('wikipedia.zip', { signal: abortController.signal }) .catch(() => console.log('aborted!');
+// 10 毫秒后中断请求
+setTimeout(() => abortController.abort(), 10);
+// 已经中断
+```
+
+### Web Socket
+
+Web Socket(套接字)的目标是通过一个长时连接实现与服务器全双工、双向的通信。在 JavaScript 中创建 Web Socket 时，一个 HTTP 请求会发送到服务器以初始化连接。服务器响应后，连接使用 HTTP 25 的 Upgrade 头部从 HTTP 协议切换到 Web Socket 协议。这意味着 Web Socket 不能通过标准 HTTP 服务 器实现，而必须使用支持该协议的专有服务器。
+
+因为 Web Socket 使用了自定义协议，所以 URL 方案(scheme)稍有变化:不能再使用 `http://` 或 `https://`， 而要使用 `ws://` 和 `wss://`。前者是不安全的连接，后者是安全连接。
+
+### 安全
+
+需要验证请求发送者拥有对资源的访问权限。可以通过如下方式实现。
+
+- 要求通过 SSL 访问能够被 Ajax 访问的资源。
+- 要求每个请求都发送一个按约定算法计算好的令牌(token)。
+
+以下手段对防护 CSRF 攻击是无效的。
+
+- 要求 POST 而非 GET 请求(很容易修改请求方法)。
+- 使用来源 URL 验证来源(来源 URL 很容易伪造)。
+- 基于 cookie 验证(同样很容易伪造)。
 
 ### 小结
 
@@ -616,7 +678,7 @@ Ajax 是无须刷新当前页面即可从服务器获取数据的一个方法，
 
 XHR 的一个主要限制是同源策略，即通信只能在相同域名、相同端口和相同协议的前提下完成。
 
-访问超出这些限制之外的资源会导致安全错误，除非使用了正式的跨域方案。这个方案叫作跨源资源共 享(CORS，Cross-Origin Resource Sharing)，XHR 对象原生支持 CORS。图片探测和 JSONP 是另外两种 跨域通信技术，但没有 CORS 可靠。
+访问超出这些限制之外的资源会导致安全错误，除非使用了正式的跨域方案。这个方案叫作跨源资源共享(CORS，Cross-Origin Resource Sharing)，XHR 对象原生支持 CORS。图片探测和 JSONP 是另外两种 跨域通信技术，但没有 CORS 可靠。
 Fetch API 是作为对 XHR 对象的一种端到端的替代方案而提出的。这个 API 提供了优秀的基于期约 的结构、更直观的接口，以及对 Stream API 的最好支持。
 
 **Web Socket** 是与服务器的全双工、双向通信渠道。与其他方案不同，Web Socket 不使用 HTTP，而 使用了自定义协议，目的是更快地发送小数据块。这需要专用的服务器，但速度优势明显。
