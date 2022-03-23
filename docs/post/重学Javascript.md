@@ -225,6 +225,14 @@ ECMAScript 6 新增的类很大程度上是基于既有原型机制的语法糖�
 
 ## 第十二章 BOM
 
+BOM 的核心是 window 对象，表示浏览器的实例。window 对象在浏览器中有两重身份，一个是 ECMAScript 中的 Global 对象，另一个就是浏览器窗口的 JavaScript 接口
+
+JavaScript 在浏览器中是单线程执行的，但允许使用定时器指定在某个时间之后或每隔一段时间就 执行相应的代码。
+
+> 所有超时执行的代码(函数)都会在全局作用域中的一个匿名函数中运行，因此函 数中的 this 值在非严格模式下始终指向 window，而在严格模式下是 undefined。如果 给 setTimeout()提供了一个箭头函数，那么 this 会保留为定义它时所在的词汇作用域。
+
+**location** 是最有用的 BOM 对象之一，提供了当前窗口中加载文档的信息，以及通常的导航功能。 这个对象独特的地方在于，它既是 window 的属性，也是 document 的属性。也就是说， window.location 和 document.location 指向同一个对象。
+
 ### 小结
 
 浏览器对象模型(BOM，Browser Object Model)是以 window 对象为基础的，这个对象代表了浏览器窗口和页面可见的区域。window 对象也被复用为 ECMAScript 的 Global 对象，因此所有全局变量和函数都是它的属性，而且所有原生类型的构造函数和普通函数也都从一开始就存在于这个对象之上。本章讨论了 BOM 的以下内容。
@@ -250,6 +258,24 @@ BOM 中的另外两个对象也提供了一些功能。screen 对象中保存着
 浏览器也提供了一些软件和硬件相关的信息。这些信息通过 screen 和 navigator 对象暴露出来。 利用这些 API，可以获取关于操作系统、浏览器、硬件、设备位置、电池状态等方面的准确信息。
 
 ## 第十四章 DOM
+
+文档对象模型(DOM，Document Object Model)是 HTML 和 XML 文档的编程接口。
+
+每个节点都有 nodeType 属性，表示该节点的类型：
+
+- Node.ELEMENT_NODE(1)
+- Node.ATTRIBUTE_NODE(2)
+- Node.TEXT_NODE(3)
+- Node.CDATA_SECTION_NODE(4)
+- Node.ENTITY_REFERENCE_NODE(5)
+- Node.ENTITY_NODE(6)
+- Node.PROCESSING_INSTRUCTION_NODE(7)  Node.COMMENT_NODE(8)
+- Node.DOCUMENT_NODE(9)
+- Node.DOCUMENT_TYPE_NODE(10)
+- Node.DOCUMENT_FRAGMENT_NODE(11)
+- Node.NOTATION_NODE(12)
+
+### Node 类型
 
 ### 小结
 

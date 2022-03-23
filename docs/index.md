@@ -2,6 +2,8 @@
 
 ## 收藏
 
+- https://github.com/BetaSu/fe-hunter
+
 - [小宇宙 Web Worker](https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35)
 - <https://www.bilibili.com/video/BV1mu411R7qw/>
 - <https://web.archive.org/>
