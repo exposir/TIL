@@ -269,13 +269,37 @@ BOM 中的另外两个对象也提供了一些功能。screen 对象中保存着
 - Node.CDATA_SECTION_NODE(4)
 - Node.ENTITY_REFERENCE_NODE(5)
 - Node.ENTITY_NODE(6)
-- Node.PROCESSING_INSTRUCTION_NODE(7)  Node.COMMENT_NODE(8)
-- Node.DOCUMENT_NODE(9)
+- Node.PROCESSING_INSTRUCTION_NODE(7)
+- Node.COMMENT_NODE(8)
+- Node.DOCUMENT_NODE(9) 文档节点
 - Node.DOCUMENT_TYPE_NODE(10)
 - Node.DOCUMENT_FRAGMENT_NODE(11)
 - Node.NOTATION_NODE(12)
 
-### Node 类型
+`nodeName` 与 `nodeValue` 保存着有关节点的信息
+
+```js
+if (someNode.nodeType == 1) {
+  value = someNode.nodeName; // 会显示元素的标签名
+}
+```
+
+### 节点属性和方法
+
+- previousSibling
+- nextSibling
+- firstChild
+- lastChild
+- hasChildNodes()
+- appendChild()
+- insertBefore()
+- replaceChild()
+- removeChild()
+- cloneNode()
+
+### MutationObserver 接口
+
+不久前添加到 DOM 规范中的 MutationObserver 接口，可以在 DOM 被修改时异步执行回调。使 用 MutationObserver 可以观察整个文档、DOM 树的一部分，或某个元素。此外还可以观察元素属性、子节点、文本，或者前三者任意组合的变化。
 
 ### 小结
 
@@ -285,8 +309,7 @@ DOM 由一系列节点类型构成，主要包括以下几种。
 
 - Node 是基准节点类型，是文档一个部分的抽象表示，所有其他类型都继承 Node。
 
-- Document 类型表示整个文档，对应树形结构的根节点。在 JavaScript 中，document 对象是
-  Document 的实例，拥有查询和获取节点的很多方法。
+- Document 类型表示整个文档，对应树形结构的根节点。在 JavaScript 中，document 对象是 Document 的实例，拥有查询和获取节点的很多方法。
 
 - Element 节点表示文档中所有 HTML 或 XML 元素，可以用来操作它们的内容和属性。
 
@@ -294,19 +317,52 @@ DOM 由一系列节点类型构成，主要包括以下几种。
 
 DOM 编程在多数情况下没什么问题，在涉及 `<script>` 和 `<style>` 元素时会有一点兼容性问题。因为这些元素分别包含脚本和样式信息，所以浏览器会将它们与其他元素区别对待。
 
-要理解 DOM，最关键的一点是知道影响其性能的问题所在。DOM 操作在 JavaScript 代码中是代价 比较高的，NodeList 对象尤其需要注意。NodeList 对象是“实时更新”的，这意味着每次访问它都
-会执行一次新的查询。考虑到这些问题，实践中要尽量减少 DOM 操作的数量。
+要理解 DOM，最关键的一点是知道影响其性能的问题所在。DOM 操作在 JavaScript 代码中是代价 比较高的，NodeList 对象尤其需要注意。NodeList 对象是“实时更新”的，这意味着每次访问它都会执行一次新的查询。考虑到这些问题，实践中要尽量减少 DOM 操作的数量。
 
-MutationObserver 是为代替性能不好的 MutationEvent 而问世的。使用它可以有效精准地监控
-DOM 变化，而且 API 也相对简单。
+**MutationObserver** 是为代替性能不好的 **MutationEvent** 而问世的。使用它可以有效精准地监控 DOM 变化，而且 API 也相对简单。
 
 ## 第十五章 DOM 扩展
 
+### Selectors API
+
+- `querySelector()` 方法接收 CSS 选择符参数，返回匹配该模式的第一个后代元素，如果没有匹配 项则返回 null。
+- `querySelectorAll()` 方法跟 querySelector()一样，也接收一个用于查询的参数，但它会返回 所有匹配的节点，而不止一个。这个方法返回的是一个 NodeList 的静态实例。
+- `matches()` 方法(在规范草案中称为 matchesSelector())接收一个 CSS 选择符参数，如果元素 匹配则该选择符返回 true，否则返回 false。
+
+### Element Traversal
+
+Element Traversal API 为 DOM 元素添加了 5 个属性:
+
+- `childElementCount`，返回子元素数量(不包含文本节点和注释)
+- `firstElementChild`，指向第一个 Element 类型的子元素(Element 版 firstChild)
+- `lastElementChild`，指向最后一个 Element 类型的子元素(Element 版 lastChild)
+- `previousElementSibling`， 指 向 前 一 个 Element 类 型 的 同 胞 元 素 (Element 版 previousSibling)
+- `nextElementSibling`，指向后一个 Element 类型的同胞元素(Element 版 nextSibling)
+
+### CSS 类扩展
+
+- `getElementsByClassName()`
+- classList 属性
+
+### HTMLDocument 扩展
+
+readyState 属性，document.readyState 属性有两个可能的值:
+
+- loading，表示文档正在加载。
+- complete，表示文档加载完成。
+
+### 插入标记
+
+- `innerHTML` 在读取 innerHTML 属性时，会返回元素所有后代的 HTML 字符串，包括元素、注释和文本节点。 而在写入 innerHTML 时，则会根据提供的字符串值以新的 DOM 子树替代元素中原来包含的所有节点。
+- `outerHTML` 读取 outerHTML 属性时，会返回调用它的元素(及所有后代元素)的 HTML 字符串。在写入 outerHTML 属性时，调用它的元素会被传入的 HTML 字符串经解释之后生成的 DOM 子树取代。
+- `insertAdjacentHTML()` 与 `insertAdjacentText()`
+- **scrollIntoView()** 方法存在于所有 HTML 元素上，可以滚动浏览器窗口或容器元素以便包含元素进入视口。
+
 ### 小结
 
-虽然 DOM 规定了与 XML 和 HTML 文档交互的核心 API，但其他几个规范也定义了对 DOM 的扩 展。很多扩展都基于之前的已成为事实标准的专有特性标准化而来。本章主要介绍了以下 3 个规范。
+虽然 DOM 规定了与 XML 和 HTML 文档交互的核心 API，但其他几个规范也定义了对 DOM 的扩展。很多扩展都基于之前的已成为事实标准的专有特性标准化而来。本章主要介绍了以下 3 个规范。
 
-- **Selectors API** 为基于 CSS 选择符获取 DOM 元素定义了几个方法:querySelector()、 querySelectorAll()和 matches()。
+- **Selectors API** 为基于 CSS 选择符获取 DOM 元素定义了几个方法:`querySelector()`、 `querySelectorAll()`和 `matches()`。
 - **Element Traversal** 在 DOM 元素上定义了额外的属性，以方便对 DOM 元素进行遍历。这个需求 是因浏览器处理元素间空格的差异而产生的。
 - **HTML5** 为标准 DOM 提供了大量扩展。其中包括对 innerHTML 属性等事实标准进行了标准化， 还有焦点管理、字符集、滚动等特性。
 
@@ -321,8 +377,8 @@ DOM2 规范定义了一些模块，用来丰富 DOM1 的功能。DOM2 Core 在�
 DOM2 Style 模块定义了如何操作元素的样式信息。
 
 - 每个元素都有一个关联的 style 对象，可用于确定和修改元素特定的样式。
-- 要确定元素的计算样式，包括应用到元素身上的所有 CSS 规则，可以使用 getComputedStyle() 方法。
-- 通过 document.styleSheets 集合可以访问文档上所有的样式表。
+- 要确定元素的计算样式，包括应用到元素身上的所有 CSS 规则，可以使用 `getComputedStyle()` 方法。
+- 通过 `document.styleSheets` 集合可以访问文档上所有的样式表。
 
 DOM2 Traversal and Range 模块定义了与 DOM 结构交互的不同方式。
 
