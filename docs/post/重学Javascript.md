@@ -22,6 +22,16 @@ W3C -> DOM
 - 规范：ECMA-262 https://tc39.escma262/
 - 手册：MDN（Mozilla）JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
+### 小结
+
+JavaScript 是一门用来与网页交互的脚本语言，包含以下三个组成部分。
+
+- ECMAScript:由 ECMA-262 定义并提供核心功能。
+- 文档对象模型(DOM):提供与网页内容交互的方法和接口。
+- 浏览器对象模型(BOM):提供与浏览器交互的方法和接口。
+
+JavaScript 的这三个部分得到了五大 Web 浏览器(IE、Firefox、Chrome、Safari 和 Opera)不同程度的支持。所有浏览器基本上对 ES5(ECMAScript 5)提供了完善的支持，而对 ES6(ECMAScript 6)和 ES7(ECMAScript 7)的支持度也在不断提升。这些浏览器对 DOM 的支持各不相同，但对 Level 3 的支 持日益趋于规范。HTML5 中收录的 BOM 会因浏览器而异，不过开发者仍然可以假定存在很大一部分公共特性。
+
 ## 第二章 HTML 中的 JavaScript
 
 ### `<script>`标签
@@ -34,6 +44,17 @@ nomodule
 
 - 浏览器不支持脚本
 - 浏览器对脚本的支持被关闭
+
+### 小结
+
+JavaScript 是通过`<script>`元素插入到 HTML 页面中的。这个元素可用于把 JavaScript 代码嵌入到 HTML 页面中，跟其他标记混合在一起，也可用于引入保存在外部文件中的 JavaScript。本章的重点可以总结如下。
+
+- 要包含外部 JavaScript 文件，必须将 src 属性设置为要包含文件的 URL。文件可以跟网页在同一台服务器上，也可以位于完全不同的域。
+- 所有`<script>`元素会依照它们在网页中出现的次序被解释。在不使用 defer 和 async 属性的情况下，包含在`<script>`元素中的代码必须严格按次序解释。
+- 对不推迟执行的脚本，浏览器必须解释完位于<`script>`元素中的代码，然后才能继续渲染页面 的剩余部分。为此，通常应该把`<script>`元素放到页面末尾，介于主内容之后及`</body>`标签之前。
+- 可以使用 defer 属性把脚本推迟到文档渲染完毕后再执行。推迟的脚本原则上按照它们被列出的次序执行。
+- 可以使用 async 属性表示脚本不需要等待其他脚本，同时也不阻塞文档渲染，即异步加载。异 步脚本不能保证按照它们在页面中出现的次序执行。
+- 通过使用`<noscript>`元素，可以指定在浏览器不支持脚本时显示的内容。如果浏览器支持并启用脚本，则`<noscript>`元素中的任何内容都不会被渲染。
 
 ## 第三章 语言基础
 
@@ -62,7 +83,7 @@ if (test) {
 - var -> 函数作用域
 - let -> 块作用域
 
-#### 暂时性死区
+### 暂时性死区
 
 ```js
 console.log(age); // ReferenceError: age没有定义
@@ -70,6 +91,22 @@ let age = 26;
 ```
 
 在 let 声明之前的执行
+
+### 小结
+
+JavaScript 的核心语言特性在 ECMA-262 中以伪语言 ECMAScript 的形式来定义。ECMAScript 包含 所有基本语法、操作符、数据类型和对象，能完成基本的计算任务，但没有提供获得输入和产生输出的 机制。理解 ECMAScript 及其复杂的细节是完全理解浏览器中 JavaScript 的关键。下面总结一下 ECMAScript 中的基本元素。
+
+- ECMAScript 中的基本数据类型包括 Undefined、Null、Boolean、Number、String 和 Symbol。
+- 与其他语言不同，ECMAScript 不区分整数和浮点值，只有 Number 一种数值数据类型。
+- Object 是一种复杂数据类型，它是这门语言中所有对象的基类。
+- 严格模式为这门语言中某些容易出错的部分施加了限制。
+- ECMAScript 提供了 C 语言和类 C 语言中常见的很多基本操作符，包括数学操作符、布尔操作符、 关系操作符、相等操作符和赋值操作符等。
+- 这门语言中的流控制语句大多是从其他语言中借鉴而来的，比如 if 语句、for 语句和 switch 语句等。
+
+ECMAScript 中的函数与其他语言中的函数不一样。
+
+- 不需要指定函数的返回值，因为任何函数可以在任何时候返回任何值。
+- **不指定返回值的函数实际上会返回特殊值 undefined。**
 
 ## 第四章 变量、作用域与内存
 
