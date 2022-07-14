@@ -1,4 +1,4 @@
-# Notion + Github
+### Notion + Github
 
 ## [Discussions](https://github.com/exposir/weekly/discussions)
 
