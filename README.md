@@ -9,3 +9,4 @@
 - [5.《Javascript 悟道》读书笔记](https://exposir.notion.site/Javascript-641a679751ae4a1083f2dbf6abb825fb)
 - [6.React 框架选择指北](https://exposir.notion.site/React-2abeb27c48d94055980c60a23c800d2c)
 - [7.牛肉干怎么选？](https://exposir.notion.site/5c8585a58e314c838460e3777eb1ea3c)
+- [7.重庆之旅](https://github.com/exposir/weekly/discussions/107)
