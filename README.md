@@ -1,12 +1,23 @@
-### Notion + Github
+## Blog
 
-## [Discussions](https://github.com/exposir/weekly/discussions)
+[重庆之旅](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85%20d43f256ca3fb473c94735d68c85d8ed6.md)
 
-- [1.深拷贝和浅拷贝](https://exposir.notion.site/e49da96d1cc149d79a9d3ea27e9764d3)
-- [2.徒步游记之香巴拉](https://exposir.notion.site/fe50444282524c07ba092561b4f96b03)
-- [3.重学 Javascript](https://github.com/exposir/weekly/discussions/109)
-- [4.互联网常用名词](https://exposir.notion.site/79e61a247d7243bfa15002b87876d89e)
-- [5.《Javascript 悟道》读书笔记](https://exposir.notion.site/Javascript-641a679751ae4a1083f2dbf6abb825fb)
-- [6.React 框架选择指北](https://exposir.notion.site/React-2abeb27c48d94055980c60a23c800d2c)
-- [7.牛肉干怎么选？](https://exposir.notion.site/5c8585a58e314c838460e3777eb1ea3c)
-- [7.重庆之旅](https://github.com/exposir/weekly/discussions/107)
+[深拷贝和浅拷贝](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B5%85%E6%8B%B7%E8%B4%9D%20e49da96d1cc149d79a9d3ea27e9764d3.md)
+
+[生酮饮食（keto）](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%88keto%EF%BC%89%20e04439c84135452094f7410a128edcc9.md)
+
+[去曲老板家吃椰子鸡](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E5%8E%BB%E6%9B%B2%E8%80%81%E6%9D%BF%E5%AE%B6%E5%90%83%E6%A4%B0%E5%AD%90%E9%B8%A1%20097afaeb12a24e00a92e4e9065f78a31.md)
+
+[徒步游记之香巴拉](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E5%BE%92%E6%AD%A5%E6%B8%B8%E8%AE%B0%E4%B9%8B%E9%A6%99%E5%B7%B4%E6%8B%89%20fe50444282524c07ba092561b4f96b03.md)
+
+[重学Javascript](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E9%87%8D%E5%AD%A6Javascript%201a3f7b0099ae444aa03fc1af03e07d45.md)
+
+[互联网常用名词](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D%2079e61a247d7243bfa15002b87876d89e.md)
+
+[《Javascript悟道》读书笔记](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E3%80%8AJavascript%E6%82%9F%E9%81%93%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%20641a679751ae4a1083f2dbf6abb825fb.md)
+
+[****React 框架选择指北****](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97%202abeb27c48d94055980c60a23c800d2c.md)
+
+[《他改变了中国：江泽民传》书摘](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E3%80%8A%E4%BB%96%E6%94%B9%E5%8F%98%E4%BA%86%E4%B8%AD%E5%9B%BD%EF%BC%9A%E6%B1%9F%E6%B3%BD%E6%B0%91%E4%BC%A0%E3%80%8B%E4%B9%A6%E6%91%98%20165b76e4e12e4b8faa6d8ca4d8a2eabc.md)
+
+[**牛肉干怎么选？**](%E5%AD%9F%E4%B8%96%E5%8D%9A%204754586cfce24175bdf552779bbe5cba/%E7%89%9B%E8%82%89%E5%B9%B2%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%205c8585a58e314c838460e3777eb1ea3c.md)
