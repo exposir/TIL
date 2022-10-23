@@ -1,7 +1,5 @@
 # 备忘录
 
-[不明白播客](https://www.bumingbai.net/)
-
 waketime: w15768a03-3569-4491-ae27-e32a4f46dd43
 
 让你的大脑能够保持闲暇非常重要。
@@ -47,8 +45,6 @@ Hello~订单：2963509452388488824
 
 ==
 
-<https://github-readme-stats.vercel.app/api?username=guo-yu&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=material-palenight>
-
 《纽约时报》19日发文
 
 习近平，谢谢你！
@@ -56,8 +52,6 @@ Hello~订单：2963509452388488824
 尊敬的习主席：
 
 在你作为中共总书记的第三个任期开始之际，请接受我国的谢意和祝贺。虽现在可能还不明显，但相信，你的统治总有一天会被视为美国以及其他自由国家历史上最大的意外之喜之一。
-
-<https://github.com/bcrztw334/djy/blob/master/gb/nsc413.md#1>
 
 ## 中共二十大报道: 高文谦: 习近平最大的对手是他本人
 
@@ -157,28 +151,11 @@ npm publish –access public
 十年前，我们面对的形势是，改革开放和社会主义现代化建设取得巨大成就，党的建设新的伟大工程取得显著成效，为我们继续前进奠定了坚实基础、创造了良好条件、提供了重要保障，同时一系列长期积累及新出现的突出矛盾和问题亟待解决。党内存在不少对坚持党的领导认识模糊、行动乏力问题，存在不少落实党的领导弱化、虚化、淡化问题，有些党员、干部政治信仰发生动摇，一些地方和部门形式主义、官僚主义、享乐主义和奢靡之风屡禁不止，特权思想和特权现象较为严重， 一些贪腐问题触目惊心；经济结构性体制性矛盾突出， 发展不平衡、不协调、不可持续，传统发展模式难以为继，一些深层次体制机制问题和利益固化藩篱日益显现; 一些人对中国特色社会主义政治制度自信不足，有法不依、执法不严等问题严重存在；拜金主义、享乐主义、 极端个人主义和历史虚无主义等错误思潮不时出现，网络舆论乱象丛生，严重影响人们思想和社会舆论环境； 民生保障存在不少薄弱环节，资源环境约束趋紧、环境污染等问题突出；维护国家安全制度不完善、应对各种重大风险能力不强，国防和军队现代化存在不少短板弱项；香港、澳门落实“一国两制”的体制机制不健全；国
 家安全受到严峻挑战，等等。当时，党内和社会上不少人对党和国家前途忧心忡忡。面对这些影响党长期执政、国家长治久安、人民幸福安康的突出矛盾和问题，党中央审时度势、果敢抉择，锐意进取、攻坚克难，团结带领全党全军全国各族人民撸起袖子加油干、风雨无阻向前行，义无反顾进行具有许多新的历史特点的伟大斗争。
 
-<https://developer.apple.com/tutorials/swiftui>
-
-image.png
-<https://zh.b-ok.cc/>
-
-<https://pincong.rocks/article/46158>
-
 几方面原因，一个就是宣传口包子控制力度可能有深有浅，相对来说直接党务口管的人民日报肯定包子拿捏得住，新华社属于国家通讯社所以包派控制没那么深，至于中央电视台貌似按最新的机构设置是中宣部和国务院双重领导。
 另一方面，本届的意识形态和包子个人高度绑定，不像之前三个代表、科学发展观和江、胡个人脱钩，比如说"继续贯彻科学发展观"没人觉得是给胡锦涛劝进，但是"两个确立"意涵就有歧义，所以就有2442、4422、2+2等不同语境下政治意涵完全不同，而本届的所有意识形态工作基本围绕对包子个人效忠展开，这就给包子安排暗桩在宣传口的空间，甚至于制造歧义和假舆论浑水摸鱼。
 第三方面，宣传口可能确实是包子上台过后受益最大的口子，以往没那么重要，现在成了维系个人崇拜的重要部门，所以主观来说宣传口内挺包的人占多数。
 
 李海龙麻辣烫
-
-<https://exposir-playground-rr49p6jv56xcgxq-8080.githubpreview.dev/>
-
-[上海人的忍耐已经到了极限](https://mp.weixin.qq.com/s/DzeQbguODAa79wvHlfCtUA)
-
-<https://tinyclouds.org/javascript_containers>
-
-<https://m.wenxuecity.com/news/2021/07/26/10758204.html>
-
-<https://news.creaders.net/china/2016/08/08/1706607.html>
 
 Registered Name：mmlhgf80
 license key：3CE1EBE8F046B1A470
@@ -187,15 +164,11 @@ license key：3CE1EBE8F046B1A470
 
 点亮十五颗红心评语送Charles教程
 
-<https://www.palladiummag.com//2021/10/11/the-triumph-and-terror-of-wang-huning/>
-
 北京市西城区月坛街道三里河一区5号院4号楼301
 
 <https://xeno8.top/api/v1/client/subscribe?token=ee1ee469fb6a17c603a4de5baecba041>
 
 <https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fxeno8.top%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dee1ee469fb6a17c603a4de5baecba041&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini>
-
-<https://picas.vercel.app/>
 
 Eternity is the most romantic
 
