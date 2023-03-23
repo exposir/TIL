@@ -1,5 +1,3 @@
-# Blog
-
 ## Eternity is the most romantic
 
 [Github](https://github.com/exposir) [Notion](https://exposir.notion.site) [Twitter](https://twitter.com/ExposirM)
