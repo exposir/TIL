@@ -1,3 +1,7 @@
+
+
+# 图解 Vue Compositions API
+
 ![](../static/图解%20Vue%20Compositions%20API-1.png)
 
 ## Reactivity
@@ -102,7 +106,7 @@ watch(
 
 ### watchEffect
 
-另一种方便的方法是使用 **`watchEffect`**，它自动收集依赖并在依赖改变时运行。
+另一种方便的方法是使用 **`watchEffect`**，它自动收集依赖并在依赖改变时运行。 
 
 ```JavaScript
 import { ref, watchEffect } from 'vue';
