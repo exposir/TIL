@@ -1,8 +1,7 @@
-
-
 # 图解 Vue Compositions API
 
-![](../static/图解%20Vue%20Compositions%20API-1.png)
+![image](https://github.com/exposir/Knowledge/assets/33340988/4c8d2e51-9b8c-45ea-8106-25ee3b60a32e)
+
 
 ## Reactivity
 
